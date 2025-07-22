@@ -1,2 +1,5 @@
 title: Harris Landgarten
-theme: minima
+description: The personal website of Harris Landgarten.
+remote_theme: pages-themes/cayman
+plugins:
+  - jekyll-remote-theme
