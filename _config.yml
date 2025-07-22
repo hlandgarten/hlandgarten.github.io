@@ -2,9 +2,15 @@ title: "Harris Landgarten"
 description: "AI, Market Theory, and Innovation"
 url: "https://www.harrislandgarten.com"
 baseurl: ""
+
 name: "Harris Landgarten"
 email: "harrisl@deeplearntech.com"
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
+
+# Optional Minimal Mistakes settings
+minimal_mistakes_skin: "default"
+markdown: kramdown
+

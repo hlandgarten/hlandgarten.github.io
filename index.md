@@ -1,10 +1,8 @@
 ---
-layout: default
-title: Home
+layout: home
+author_profile: true
+title: "Welcome"
 ---
 
-# Welcome
+This is the future home of Harris Landgarten’s work in AI, Market Theory, and Innovation.
 
-This is the personal website of Harris Landgarten. Here you'll find my background, innovations, and ideas about AI and market forecasting.
-
-Check out the [Blog](/blog/) or [About](/about/).
