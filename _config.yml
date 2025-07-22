@@ -1,5 +1,5 @@
 title: Harris Landgarten
 description: Personal site of Harris Landgarten.
-remote_theme: pages-themes/slate
+remote_theme: pages-themes/modernist
 plugins:
   - jekyll-remote-theme
