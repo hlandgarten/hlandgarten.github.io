@@ -1,7 +1,10 @@
 title: "Harris Landgarten"
 description: "AI, Market Theory, and Innovation"
 url: "https://www.harrislandgarten.com"
-baseurl: "" # Do not set for user/organization site
+baseurl: ""
 name: "Harris Landgarten"
 email: "harrisl@deeplearntech.com"
 
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
