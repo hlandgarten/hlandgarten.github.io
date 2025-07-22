@@ -1,5 +1,5 @@
 title: Harris Landgarten
-description: The personal website of Harris Landgarten.
-remote_theme: pages-themes/cayman
+description: Personal site of Harris Landgarten.
+remote_theme: pages-themes/slate
 plugins:
   - jekyll-remote-theme
