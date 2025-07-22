@@ -1,5 +1,7 @@
-title: Harris Landgarten
-description: Personal site of Harris Landgarten.
-remote_theme: pages-themes/modernist
-plugins:
-  - jekyll-remote-theme
+title: "Harris Landgarten"
+description: "AI, Market Theory, and Innovation"
+url: "https://www.harrislandgarten.com"
+baseurl: "" # Do not set for user/organization site
+name: "Harris Landgarten"
+email: "harrisl@deeplearntech.com"
+
