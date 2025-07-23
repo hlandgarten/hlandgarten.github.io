@@ -1,45 +1,22 @@
 title: "Harris Landgarten"
-name: "Harris Landgarten"
 description: "AI, Market Theory, and Innovation"
 url: "https://www.harrislandgarten.com"
-baseurl: "" # no trailing slash
-repository: hlandgarten/hlandgarten.github.io
-
-# Theme and plugins
+baseurl: ""  # Leave this empty for root
+email: "harrisl@deeplearntech.com"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-archives
-  - jekyll-paginate
+  - jekyll-data
 
-# Site author
-author:
-  name: "Harris Landgarten"
-  avatar: "/assets/images/avatar.jpg"
-  bio: "Inventor, Trader, AI Innovator"
-  location: "New York"
-  email: "harrisl@deeplearntech.com"
-
-# Navigation
-header_pages:
-  - index.md
-  - _pages/about.md
-
-# Defaults
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
+      sidebar:
+        nav: "main"
 
