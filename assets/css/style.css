@@ -156,4 +156,52 @@ hr {
     margin-bottom: 0.5em;
   }
 }
+/* Markdown Styling Inside <details> */
+details > *:not(summary) {
+  padding: 1em;
+}
+
+details h1,
+details h2,
+details h3,
+details h4,
+details h5,
+details h6 {
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+details p,
+details ul,
+details ol,
+details li,
+details blockquote,
+details pre,
+details code,
+details img {
+  margin: 0.5em 0;
+  font-size: 1em;
+  color: inherit;
+}
+
+details ul,
+details ol {
+  padding-left: 1.5em;
+}
+
+details blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1em;
+  color: #666;
+  font-style: italic;
+  background: #f9f9f9;
+}
+
+details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin: 1em auto;
+}
 
