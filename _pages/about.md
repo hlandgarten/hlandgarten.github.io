@@ -18,7 +18,7 @@ Then came the **Altair 8800**, and with it, paper tape. The moment I ran **Micro
 
 I wasn’t just watching the birth of personal computing. I was helping raise it.
 
-![Altair 8800](/assets/images/altair-8800.jpg)
+![Altair 8800](/assets/images/altair-8800.jpeg)
 *Altair 8800 - the first widely recognized personal computer*
 
 ![Teletype Model 33 ASR](/assets/images/teletype-asr33.jpg)
