@@ -1,8 +1,11 @@
 ---
 layout: home
-author_profile: true
 title: "Welcome"
+permalink: /
+author_profile: true
 ---
 
-This is the future home of Harris Landgarten’s work in AI, Market Theory, and Innovation.
+Welcome to my personal site. I’m Harris Landgarten — inventor, trader, and AI innovator.
+
+Explore my work in market theory, cutting-edge AI modeling, and practical product design.
 
