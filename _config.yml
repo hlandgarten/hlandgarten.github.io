@@ -13,6 +13,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-data
 
+markdown: kramdown
+kramdown:
+  input: GFM
+
 # Enable _pages folder as custom collection
 collections:
   pages:

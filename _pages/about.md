@@ -5,6 +5,20 @@ layout: single
 sidebar:
   nav: "main"
 ---
+### test section
+<details>
+<summary><strong>Click to expand this test</strong></summary>
+
+### ✅ Markdown is enabled!
+
+- This should be a bullet point
+- So should this
+
+**Bold text**, *italic text*, and [a working link](https://example.com)
+
+```python
+# This is a fenced code block
+print("Hello, Markdown in HTML!")
 
 ## My Beginning in Computers
 
