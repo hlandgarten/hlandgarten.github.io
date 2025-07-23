@@ -25,3 +25,42 @@ footer {
   font-size: 0.9em;
   color: #888;
 }
+/* Style for expandable details blocks */
+details {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+
+details:hover {
+  background-color: #f0f0f0;
+}
+
+details[open] {
+  background-color: #fff;
+  border-color: #999;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin: -1em -1em 1em -1em;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+  background-color: #eee;
+  border-radius: 8px 8px 0 0;
+  transition: background-color 0.3s ease;
+}
+
+details[open] summary {
+  background-color: #ddd;
+}
+
+details summary:hover {
+  background-color: #ddd;
+}
+
