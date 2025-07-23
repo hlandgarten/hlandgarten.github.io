@@ -12,16 +12,17 @@ Welcome to my personal site. I’m Harris Landgarten — inventor, trader, and A
 Explore my work in market theory, cutting-edge AI modeling, and practical product design.
 
 ## Recent Posts
-{%- if site.posts.size > 0 -%}
+
+{% if site.posts.size > 0 %}
 <ul>
-  {%- for post in site.posts limit:5 -%}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br />
       <small>{{ post.excerpt | strip_html | truncate: 160 }}</small>
     </li>
-  {%- endfor -%}
+  {% endfor %}
 </ul>
-{%- else -%}
+{% else %}
 <p>No blog posts yet. Stay tuned!</p>
-{%- endif -%}
+{% endif %}
 
