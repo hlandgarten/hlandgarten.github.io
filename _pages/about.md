@@ -11,16 +11,17 @@ sidebar:
 <details>
   <summary><strong>Click to expand</strong></summary>
 
-**Before Lifeboat. Before Microsoft BASIC. Before the PC boom…** I was already building.
+- Before Lifeboat. Before Microsoft BASIC. Before the PC boom… I was already building.
+- My setup:
+  - **Teletype Model 33 ASR** for output
+  - **One-line LED terminal** for input
+  - **Cassette tape** for storage
+- I built a full **pack list, invoice, and A/R system in BASIC** on that hardware.
+- Then came the **Altair 8800**, and **paper tape**. I ran Microsoft BASIC and watched it display its name—on that same LED terminal.
+- That’s when I knew the future had arrived.
 
-I had a **Teletype Model 33 ASR** for output and a **one-line LED terminal** for input. My storage? A **cassette tape**.
-
-I wrote a complete **pack list, invoice, and A/R posting system** in BASIC—on that hardware. It was primitive, but it automated hours of work.
-
-Then came the **Altair 8800**. When I ran Microsoft BASIC from **paper tape** and saw it greet me on that LED terminal, I knew the future had arrived.
-
-> I wasn’t just watching the birth of personal computing.  
-> I was helping raise it.
+> *I wasn’t just watching the birth of personal computing.  
+> I was helping raise it.*
 
 ![Altair 8800](/assets/images/altair-8800.jpg)  
 *Altair 8800 – the first widely recognized personal computer*
@@ -37,12 +38,13 @@ Then came the **Altair 8800**. When I ran Microsoft BASIC from **paper tape** an
 <details>
   <summary><strong>Click to expand</strong></summary>
 
-In **1982**, I was president of **XEDEX**, creators of **BabyBlue**—a device that allowed the IBM PC to run **CP/M software**, bridging a crucial compatibility gap.
-
-> “It gives you all the advantages of the IBM hardware plus the ability to run the enormous base of CP/M software.”  
-> — *Harris Landgarten*, UPI interview, 1982
-
-BabyBlue dramatically expanded the IBM PC’s software base and helped establish it as a universal platform.
+- In **1982**, I was President of **XEDEX**, makers of **BabyBlue**
+- BabyBlue let the IBM PC run **CP/M software**, unlocking a huge existing software base
+- The bridge between old and new:
+  - IBM’s hardware + CP/M’s software library
+- Quoted in United Press International:
+  > “It gives you all the advantages of the IBM hardware plus the ability to run the enormous base of CP/M software.”  
+  > — *Harris Landgarten*, 1982
 
 </details>
 
@@ -53,11 +55,14 @@ BabyBlue dramatically expanded the IBM PC’s software base and helped establish
 <details>
   <summary><strong>Click to expand</strong></summary>
 
-As **President of Techland Systems** (until 1985), I focused on **protocol conversion systems**—the glue between incompatible computing systems.
-
-Techland made it possible for **minicomputers**, **PCs**, and **mainframes** to **talk to each other**, laying groundwork for the interoperability that defines computing today.
-
-See the [archived brochure on Bitsavers](http://www.bitsavers.org/pdf/datapro/protocol_conversion_systems/C23-825_Techland_Systems.pdf).
+- President of **Techland Systems** until 1985
+- Focused on **protocol conversion systems**
+  - Hardware and firmware to bridge incompatible systems
+- Enabled:
+  - PCs ↔️ Minicomputers ↔️ Mainframes
+- Paved the way for today’s networked environments
+- See the archived brochure:
+  [Techland Systems (Bitsavers)](http://www.bitsavers.org/pdf/datapro/protocol_conversion_systems/C23-825_Techland_Systems.pdf)
 
 </details>
 
@@ -68,34 +73,26 @@ See the [archived brochure on Bitsavers](http://www.bitsavers.org/pdf/datapro/pr
 <details>
   <summary><strong>Click to expand</strong></summary>
 
-By **1988**, I had shifted my focus to a new frontier: **sound**.
+- Joined **NCTI (Noise Cancellation Technologies Inc.)** in 1988
+- Worked with **John McCloy Jr.**
+- Pioneered **active noise and vibration control**
+  - Not insulation — *anti-noise*
+- Covered by **The New York Times**:
+  - “You Can't Stand the Noise? Get an Anti-Noise Machine”  
+    [March 2, 1988](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html) *(subscription required)*
+  - “New Technology Defeats Unwanted Noise”  
+    [June 30, 1987](https://www.nytimes.com/1987/06/30/science/new-technology-defeats-unwanted-noise.html) *(subscription required)*
 
-I joined **Noise Cancellation Technologies Inc. (NCTI)**, working alongside **John McCloy Jr.** to pioneer breakthroughs in **active noise and vibration control**.
+- Real-world use cases:
+  - Industrial fans
+  - Machinery
+  - Automotive
+  - Vibrating surfaces (even **pools of water**)
 
-The idea was radical at the time—canceling sound not with insulation, but with **precision-engineered anti-sound**.
-
-📰 **Featured in The New York Times**  
-> “You Can't Stand the Noise? Get an Anti-Noise Machine”  
-> — *The New York Times*, March 2, 1988, Page D6  
-> *(Subscription required)*
-
-Earlier, science correspondent **William J. Broad** also covered our innovations:  
-> “New Technology Defeats Unwanted Noise”  
-> — *The New York Times*, June 30, 1987  
-> *(Subscription required)*
-
-🛠️ **Our work targeted**:  
-- Factories  
-- Fans  
-- Engines  
-- Vibration systems  
-
-💡 **Wider recognition included**:  
-- A feature in *The Economist*  
-- A **live demo on Good Morning America**, showing vibration cancellation in a **pool of water**  
-- An interview on *Innovation TV* about the future of acoustic control  
-
-This early work helped lay the foundation for today’s **active noise-canceling technologies** in **headphones**, **cars**, and **industry**.
+- Broader media recognition:
+  - Featured in **The Economist**
+  - **Live demo on Good Morning America**
+  - Interview with **Innovation TV**
 
 </details>
 
@@ -106,9 +103,23 @@ This early work helped lay the foundation for today’s **active noise-canceling
 <details>
   <summary><strong>Click to expand</strong></summary>
 
-🎸 I was at **Woodstock**, surrounded by mud, music, and revolution. That moment shaped my values and vision.
-
-📚 I studied under **Dr. Hoffman** at **Queens College**, who sparked my early interest in **systems thinking** and **philosophy**—core ideas that would shape my engineering and leadership for decades.
+- Attended **Woodstock**
+  - Music, mud, movement — and a mindset that stayed with me
+- Studied under **Dr. Hoffman** at **Queens College**
+  - Deep influence on systems thinking and philosophy
 
 </details>
+
+---
+
+## Sidebar Navigation Structure
+
+We’re building out the rest of the site. Coming soon:
+
+- ✅ **About** ← you are here
+- ⏳ Timeline
+- ⏳ Projects (BabyBlue, Techland, NCTI, AI)
+- ⏳ Press & Mentions
+- ⏳ Essays & Reflections
+- ⏳ Personal (Woodstock, Queens College, etc.)
 
