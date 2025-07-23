@@ -92,13 +92,28 @@ See the [archived brochure on Bitsavers](http://www.bitsavers.org/pdf/datapro/pr
 <details>
   <summary>Click to expand</summary>
 
-In the late '80s, I helped pioneer **active noise and vibration cancellation** at **NCTI**, working alongside **John McCloy Jr.**.
+By **1988**, I had shifted my focus to a new frontier: **sound**.
 
-We demonstrated early systems that could cancel real-world acoustic disturbances—technology still used today in everything from industrial systems to headphones.
+I joined **Noise Cancellation Technologies Inc. (NCTI)**, working alongside **John McCloy Jr.** to pioneer breakthroughs in **active noise and vibration control**. The idea was radical at the time—canceling sound not with insulation, but with precision-engineered anti-sound.
 
-📰 **NY Times**, March 2, 1988  
-“You Can’t Stand the Noise? Get an Anti-Noise Machine”  
-[*Read article (subscription may be required)*](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html)
+📰 **Featured in The New York Times**  
+> “You Can't Stand the Noise? Get an Anti-Noise Machine”  
+> — *The New York Times*, March 2, 1988, Page D6  
+> *(Subscription required)*
+
+Earlier, science correspondent **William J. Broad** also covered our innovations:  
+> “New Technology Defeats Unwanted Noise”  
+> — *The New York Times*, June 30, 1987  
+> *(Subscription required)*
+
+🛠️ Our work targeted **real-world acoustic problems**—factories, fans, engines, and vibration systems.
+
+💡 **Wider recognition included**:
+- A feature in *The Economist*
+- A **live demo on Good Morning America**, where I canceled vibrations in a **pool of water**
+- An interview on *Innovation TV* about the future of acoustic control
+
+This early work helped lay the foundation for technologies that would become standard in **headphones**, **cars**, and **industrial noise solutions**.
 
 </details>
 
