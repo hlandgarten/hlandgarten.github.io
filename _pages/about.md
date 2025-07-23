@@ -48,11 +48,31 @@ Documents like the [Techland Systems brochure (PDF)](/assets/docs/techland-broch
 
 ## Innovating in Noise Cancellation
 
+<details>
+  <summary><strong>Click to expand</strong></summary>
+
 By 1988, I had turned my attention to a different kind of problem: noise. I worked with **NCTI (Noise Cancellation Technologies Inc.)**, where I collaborated with **John McCloy Jr.** on breakthrough developments in **active noise and vibration control**.
 
-As noted in a *New York Times* article dated March 2, 1988, titled *"Business Technology; You Can't Stand the Noise? Get an Anti-Noise Machine"*, I was at the forefront of **noise and vibration cancellation technology**.
+As noted in *The New York Times*, I was at the forefront of active noise and vibration cancellation technology during the 1980s.
 
-The article highlights both the market potential and technical challenges of active noise control, noting that my company was focused on addressing real-world acoustic problems. This pioneering work laid the foundation for innovations that are still in use today, from industrial soundproofing to noise-canceling consumer products.
+> “You Can't Stand the Noise? Get an Anti-Noise Machine”  
+> *The New York Times*, March 2, 1988, Page D6  
+> *(Subscription required)*
+
+An earlier article by William J. Broad also covered the emerging promise of this field:
+
+> “New Technology Defeats Unwanted Noise”  
+> *The New York Times*, June 30, 1987  
+> *(Subscription required)*
+
+My company focused on solving **real-world acoustic problems**. We earned recognition across media, including:
+- A feature in **The Economist**
+- A **live demonstration on Good Morning America** using water to show vibration cancellation
+- An interview with **Innovation TV**
+
+Our work helped pave the way for today’s active noise-canceling technologies.
+
+</details>
 
 ## Before the Machines: Woodstock and Dr. Hoffman
 
