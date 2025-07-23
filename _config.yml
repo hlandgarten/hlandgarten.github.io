@@ -1,27 +1,13 @@
-title: "Harris Landgarten"
-description: "AI, Market Theory, and Innovation"
-url: "https://www.harrislandgarten.com"
-baseurl: ""  # Leave this empty for root
-email: "harrisl@deeplearntech.com"
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-data
+---
+layout: single
+title: "Welcome"
+permalink: /
+author_profile: true
+sidebar:
+  nav: "main"
+---
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+Welcome to my personal site. I’m Harris Landgarten — inventor, trader, and AI innovator.
 
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      sidebar:
-        nav: "main"
+Explore my work in market theory, cutting-edge AI modeling, and practical product design.
 
