@@ -2,6 +2,8 @@
 layout: home
 title: "Welcome"
 permalink: /
+sidebar:
+  nav: "main"
 author_profile: true
 ---
 
