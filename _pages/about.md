@@ -1,7 +1,7 @@
----
-layout: single
-title: "About"
-permalink: /about/
+---  
+layout: single  
+title: "About"  
+permalink: /about/  
 ---
 
 <div markdown="1">
@@ -10,6 +10,7 @@ permalink: /about/
 
 <details>
 <summary><strong>Click to expand</strong></summary>
+<div markdown="1">
 
 - At **16**, I started college as a **Computer Science major** at **Queens College**.
 - The school had only a **Xerox-built mainframe**, and all programming was in **Fortran** via **punch cards**.
@@ -50,6 +51,7 @@ permalink: /about/
 ![Teletype Model 33 ASR](/assets/images/teletype-asr33.jpg)  
 *Teletype Model 33 ASR used for I/O*
 
+</div>
 </details>
 
 ---
@@ -58,6 +60,7 @@ permalink: /about/
 
 <details>
 <summary><strong>Click to expand</strong></summary>
+<div markdown="1">
 
 - In **1979**, **Tony Gold** (President of Lifeboat) called and offered me a job.
 - In **1980**, I left my family’s plumbing supply business and joined **Lifeboat Associates**.
@@ -70,49 +73,35 @@ permalink: /about/
 
 ### Industry Collaboration:
 
-- **Micro Focus** – COBOL compilers
-- **Peter Rozen** – TMaker
-- **Balcones Software** (Austin, TX) – advanced accounting
+- **Micro Focus** – COBOL compilers  
+- **Peter Rozen** – TMaker  
+- **Balcones Software** (Austin, TX) – advanced accounting  
   - Traveled there frequently
 
 ### Ford & Microsoft
 
-- Helped **Ford Motor Company** develop its **early PC strategy**.
-  - Presented at the **Renaissance Center** in Detroit.
-- After an Intel conference in Oregon, **Bill Gates** gave **Neil Colvin** and me a personal tour of **Microsoft’s first Redmond campus**.
+- Helped **Ford Motor Company** develop its **early PC strategy**.  
+  - Presented at the **Renaissance Center** in Detroit.  
+- After an Intel conference in Oregon, **Bill Gates** gave **Neil Colvin** and me a personal tour of **Microsoft’s first Redmond campus**.  
   - They had only leased **half** the building at the time!
 
 ### Behind the Scenes with Bill Gates
 
-- Discussed his mission to stop **software piracy**.
-  - His idea: **OEM bundling** — software pre-installed on computers.
-- This approach led to deals with **Tandy**, among others.
+- Discussed his mission to stop **software piracy**.  
+  - His idea: **OEM bundling** — software pre-installed on computers.  
+- This approach led to deals with **Tandy**, among others.  
 - Ironically, it also laid the foundation for Microsoft’s **antitrust troubles**.
 
 ### BIOS Opportunity
 
-- Had a close partnership with **Neil Colvin** (Phoenix Technologies).
-- Tested **P-Mate** for **Mike Aaronson**, Neil’s friend.
+- Had a close partnership with **Neil Colvin** (Phoenix Technologies).  
+- Tested **P-Mate** for **Mike Aaronson**, Neil’s friend.  
 - I was the one who suggested the market need for **third-party BIOS**—vital to launching the **IBM PC clone industry**.
 
 > I didn’t get a commission—but I helped launch an industry.
 
-</details>
-
----
-
-## Sidebar Navigation Structure
-
-We’re building out the rest of the site. Coming soon:
-
-- ✅ **About** ← you are here
-- ⏳ Timeline
-- ⏳ Projects (BabyBlue, Techland, NCTI, AI)
-- ⏳ Press & Mentions
-- ⏳ Essays & Reflections
-- ⏳ Personal (Woodstock, Queens College, etc.)
-
 </div>
+</details>
 
 ---
 
@@ -123,7 +112,7 @@ We’re building out the rest of the site. Coming soon:
 - President of **Techland Systems** until 1985  
 - Focused on **protocol conversion systems**  
   - Hardware and firmware to bridge incompatible systems  
-- Enabled:
+- Enabled:  
   - PCs ↔️ Minicomputers ↔️ Mainframes  
 - Paved the way for today’s networked environments  
 - See the archived brochure:  
@@ -145,9 +134,9 @@ We’re building out the rest of the site. Coming soon:
 
 📰 **Covered by The New York Times**:  
 - “You Can't Stand the Noise? Get an Anti-Noise Machine”  
-  [March 2, 1988](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html) *(subscription required)*  
+  [March 2, 1988](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html)  
 - “New Technology Defeats Unwanted Noise”  
-  [June 30, 1987](https://www.nytimes.com/1987/06/30/science/new-technology-defeats-unwanted-noise.html) *(subscription required)*
+  [June 30, 1987](https://www.nytimes.com/1987/06/30/science/new-technology-defeats-unwanted-noise.html)
 
 🛠️ **Real-world use cases**:  
 - Industrial fans  
@@ -169,9 +158,9 @@ We’re building out the rest of the site. Coming soon:
 <summary><strong>Before the Machines</strong></summary>
 <div markdown="1">
 
-- Attended **Woodstock**
+- Attended **Woodstock**  
   - Music, mud, movement — and a mindset that stayed with me  
-- Studied under **Dr. Hoffman** at **Queens College**
+- Studied under **Dr. Hoffman** at **Queens College**  
   - Deep influence on systems thinking and philosophy  
 
 </div>
@@ -189,4 +178,6 @@ We’re building out the rest of the site:
 - ⏳ Press & Mentions  
 - ⏳ Essays & Reflections  
 - ⏳ Personal (Woodstock, Queens College, etc.)  
+
+</div>
 
