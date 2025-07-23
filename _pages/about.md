@@ -18,10 +18,10 @@ Then came the **Altair 8800**, and with it, paper tape. The moment I ran **Micro
 
 I wasn’t just watching the birth of personal computing. I was helping raise it.
 
-![Altair 8800](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Altair_8800_Computer.jpg/640px-Altair_8800_Computer.jpg)
-*Altair 8800 – the first widely recognized personal computer*
+![Altair 8800](/assets/images/altair-8800.jpg)
+*Altair 8800 - the first widely recognized personal computer*
 
-![Teletype Model 33 ASR](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Teletype-ASR-33.jpg/640px-Teletype-ASR-33.jpg)
+![Teletype Model 33 ASR](/assets/images/teletype-asr33.jpg)
 *Teletype Model 33 ASR used for I/O*
 
 ## The BabyBlue Breakthrough
@@ -34,6 +34,8 @@ As quoted in a February 1982 *United Press International* article:
 
 With BabyBlue, the IBM PC could suddenly run a vast library of software—immediately expanding its usefulness and accelerating its adoption. It was a bridge between computing generations and helped position the PC as a dominant platform in the years that followed.
 
+That device, and the recognition it received, was just one part of a journey rooted in curiosity, experimentation, and relentless problem-solving.
+
 ## Leading Techland Systems
 
 Following my time at XEDEX, I became **President of Techland Systems**, where I remained until 1985. Techland specialized in **protocol conversion systems**—the hardware and firmware bridges that allowed disparate computing systems to communicate with one another.
@@ -42,7 +44,7 @@ The protocol conversion field was an essential, though often overlooked, foundat
 
 Techland’s contributions played a role in the broader narrative of computing interoperability that would eventually lead to the development of networked systems, and later, the internet.
 
-Documents like the [Techland Systems brochure archived by Bitsavers](http://www.bitsavers.org/pdf/datapro/protocol_conversion_systems/C23-825_Techland_Systems.pdf) illustrate the kind of cutting-edge work we were doing during that period.
+Documents like the [Techland Systems brochure (PDF)](/assets/docs/techland-brochure.pdf) illustrate the kind of cutting-edge work we were doing during that period.
 
 ## Innovating in Noise Cancellation
 
@@ -62,3 +64,16 @@ Not long after, I studied under **Dr. Hoffman** at **Queens College**. His influ
 
 From cassette tapes to paper tape, from software to hardware, from standalone systems to networked protocols—and even into the acoustic domain—my early journey through computing reflects both the rapid evolution of the industry and the constant need for individuals willing to innovate ahead of the curve.
 
+---
+
+## Sidebar Navigation Structure (coming soon)
+
+We're building out the following sections:
+- **About** ← you are here
+- [ ] Timeline
+- [ ] Projects (BabyBlue, Techland, NCTI, AI work)
+- [ ] Press & Mentions
+- [ ] Essays & Reflections
+- [ ] Personal (Woodstock, Queens College, philosophy)
+
+Stay tuned as the rest of the site structure is added.
