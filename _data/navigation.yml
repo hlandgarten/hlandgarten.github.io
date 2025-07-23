@@ -1,0 +1,13 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Timeline"
+    url: /timeline/
+  - title: "Projects"
+    url: /projects/
+  - title: "Press & Mentions"
+    url: /press/
+  - title: "Essays & Reflections"
+    url: /essays/
+  - title: "Personal"
+    url: /personal/
