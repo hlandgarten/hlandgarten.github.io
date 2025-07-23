@@ -23,7 +23,7 @@ sidebar:
 > *I wasn’t just watching the birth of personal computing.  
 > I was helping raise it.*
 
-![Altair 8800](/assets/images/altair-8800.jpg)  
+![Altair 8800](/assets/images/altair-8800.jpeg)  
 *Altair 8800 – the first widely recognized personal computer*
 
 ![Teletype Model 33 ASR](/assets/images/teletype-asr33.jpg)  
@@ -73,7 +73,7 @@ sidebar:
 <summary><strong>Innovating in Noise Cancellation</strong></summary>
 <div markdown="1">
 
-- Joined **NCTI (Noise Cancellation Technologies Inc.)** in 1988  
+- Joined **NCTI (Noise Cancellation Technologies Inc.)** in 1986  
 - Worked with **John McCloy Jr.**  
 - Pioneered **active noise and vibration control**  
   - Not insulation — *anti-noise*  
