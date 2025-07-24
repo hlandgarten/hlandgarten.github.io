@@ -70,140 +70,14 @@ permalink: /about/
 </details>
 
 <details>
-<summary><strong>Next Chapter: 1990s–2016</strong></summary>
+<summary><strong>Next Chapter: 1990s–2000</strong></summary>
 <div markdown="1">
 
 The early 1990s marked a turning point. While I had already stepped away from day-to-day operations at NCTI, I was not finished creating. My focus turned toward **digital systems, decision theory, and complex modeling** — all informed by the lessons of the past decade.
 
 ### The 1990s
 
-* Over the course of the 1990s, I played **Shadow Creek Golf Course** — then owned by **Steve Wynn** — approximately **140 times**.
-
-* It was an incredibly exclusive course, and people constantly asked me if I could get them access — but even I couldn’t bring guests unless invited.
-
-* One especially memorable stretch was in **January of one year**, when **Mike Paschal**, a casino executive and friend, asked me to help **Kenny Green**, a PGA Tour pro who was recovering from injury.
-
-* I spent **a full month playing daily rounds at Shadow Creek with Kenny Green** to help him prepare for his return to the tour.
-
-* It was not only a generous ask, but one of the most enjoyable and meaningful experiences I’ve ever had on a golf course.
-
-* We were invited to the **grand opening of MGM’s Studio 54** in Las Vegas, a major social and celebrity event.
-
-* **Elton John** performed live on the piano for hours, while upstairs, JoAnn and I sipped cocktails with **Tony Curtis**.
-
-* We were also invited to the **opening of the Bellagio**, a landmark moment in Las Vegas history.
-
-  * We were flown in by **private jet from New York**.
-  * Upon landing, we were **registered into the hotel while still on the runway** — a level of service I had never experienced before.
-  * The opening event featured an extraordinary **performance by Van Cliburn**.
-
-* The number of **celebrities we encountered and social moments we were part of** during this era is simply too long to list.
-
-* I was also invited to several **pro-am events at Shadow Creek Golf Course**, which was then owned by **Steve Wynn**.
-
-* These events paired me and guests with **two professional golfers**, and I had the privilege of playing in these **about a dozen times**.
-
-* I have **photos from many of those rounds**, and on one occasion, I invited an investment partner to join me — a favor he repaid by inviting me to **Augusta National for The Masters** the following year.
-
-* In addition to the golf and fight invitations, JoAnn and I were also **invited to three or four Super Bowls**.
-
-* After one of them — held in **Miami** — we stayed **four nights at Mar-a-Lago**, and were **flown back to Atlantic City** afterward.
-
-* On my continued trips to **Las Vegas** and other casinos during the 1990s, I was fortunate to play some of the **best golf courses in the world**, often getting invited to **pro-am tournaments** with both **senior and active PGA professionals**.
-
-* I also received invitations to **nearly every major championship fight** held during that decade.
-
-* One particularly unforgettable moment was attending the infamous **“bite fight”** between **Mike Tyson and Evander Holyfield** at the MGM Grand.
-
-* JoAnn and I had **excellent seats**, about 15 rows from the ring, and witnessed the entire event firsthand.
-
-* We saw **Tyson bite Holyfield’s ear**, and not long after, noticed a separate fight break out in the **upper balcony**, where someone struck another person with a chair.
-
-* At ringside, **Donald Trump** was visible — he immediately grabbed his date and rushed out once chaos broke.
-
-* JoAnn and I made our way into the **casino area**, where we had dined earlier that night at the **Brown Derby**. While JoAnn went to retrieve our souvenir photo from the restaurant, I wandered into the casino.
-
-* The atmosphere was chaotic but electric — I joined a **craps game** near the front, and someone was on a very long roll.
-
-* Suddenly, a **pit boss yelled “someone’s got a gun!”**, and the casino **erupted into panic**.
-
-  * Players grabbed chips and hid under tables.
-  * JoAnn took cover behind a **slot machine**.
-
-* I later learned that the **high-stakes blackjack tables were overturned**, and **\$25,000 chips were scattered** across the floor.
-
-* Some high-profile attendees — including notable sports figures — were caught pocketing chips and faced serious consequences. The casino ultimately decided to **change all their chips** to prevent any further misuse, underscoring the severity of the incident.
-
-* The **Las Vegas Strip was shut down**, and we couldn’t get a **limo pickup for hours**.
-
-* Most shocking of all: **none of this made the news**. While the ear bite made headlines, the riot and city-wide lockdown did not — a sign of how **Las Vegas controls its own narrative**.
-
-* That **craps game**, mid-hot streak, was never resumed — likely one of the only times a **long run at a Vegas craps table ended unfinished**.
-
-* I have a memorable story to share from that night, which may be worth highlighting on the site separately.
-
-* One of my earliest memorable Las Vegas experiences occurred in **1988**, during my time with **Noise Cancellation Technologies**.
-
-* I was in Las Vegas with a key business contact, and the casino had given me **tickets to the Sugar Ray Leonard vs. Marvin Hagler fight**, which was happening that night.
-
-* Originally, **JoAnn was going to attend with me**, but she generously gave up her seat so I could entertain the business guest.
-
-* The fight turned out to be historic — **Sugar Ray Leonard won**, and it made a lasting impression.
-
-* It also showed me how valuable these moments could be for building **meaningful business relationships**.
-
-* Beginning in the **late 1980s**, I started regularly attending **Comdex** in Las Vegas, as well as the **Consumer Electronics Show** in later years.
-
-* As I returned year after year, I realized how important it was to develop **relationships with casino executives (CNOs)** to gain access to logistics during high-demand events — things like **limos, reservations, and private meeting space**.
-
-* One memorable instance during Comdex: I needed to hold a business dinner at the **top restaurant in the Las Vegas Hilton**, but the ideal table was already taken.
-
-* I reached out to my **casino contact**, who persuaded the restaurant to **move the current diners elsewhere** so we could use that table.
-
-* It was a vivid demonstration of the **power of relationships** and how strategic partnerships could enhance both **business outcomes** and **lifestyle experiences**.
-
-* In **November 1991**, JoAnn and I bought our new home in **Old Brookville, Long Island**, and moved in during the **first half of 1992**.
-
-* On a sad note, **my father passed away in 1994**, followed just six months later by **my mother**.
-
-* In **1996**, **JoAnn’s mother** also passed away, marking a profoundly difficult personal chapter amidst my technical and professional growth.
-
-* Of course, the advantages I had found in the early-to-mid '90s wouldn't last forever. By the time **2000** arrived, most of them had **petered out** as more traders and institutions entered the digital space.
-
-* However, something important changed in 2000 — the release of the **first fully electronically traded futures contract**, the **E-mini S\&P (ES)**.
-
-* When it first launched, access to the ES was limited to **special terminals**, and most S\&P trading was still done **in the Chicago pits**.
-
-* Around this time, I began stepping back from active trading again and redirected my focus to the **emerging world of internet technology** and broader computing trends.
-
-* I attended an **AIQ seminar** in **Miami**, where I first saw the potential of applying technical software to **futures market analysis**.
-
-* At the time, I was already running the **first version of TradeStation** on my home computer, connected to a **Signal data feed** via a crude **FM antenna**.
-
-* Inspired by the seminar, I began building my **first futures trading system** — and the results were promising. TradeStation was generating **profitable signals**.
-
-* The challenge: there was **no efficient way** to transmit these orders to the **futures pits** for real-time execution.
-
-* Working with **Eldon Ziegler** and my **broker**, we devised a system:
-
-  * Eldon built software to capture **TradeStation's output** and transmit the orders via **high-speed modem** to a receiving computer at the broker’s office.
-  * The broker’s staff would then **immediately phone the orders** into the trading pits.
-
-* This system — developed in **1993–1994** — was **functionally the first trading bot** I’m aware of.
-
-* It may have been a **first-of-its-kind solution**, bridging real-time analysis with automated trade dispatch.
-
-* As the system continued to prove itself, I sought a more reliable data feed and eventually installed a **satellite dish on the roof**, which fed **TradeStation** with higher-quality, real-time market data.
-
-* During this phase, I found myself in a position where I could **play golf at my country club** while my computer traded futures in the background.
-
-* One memorable day, while on the back nine, my **broker called me**. I feared something had gone wrong — but he was calling to say the system was up **\$150,000** on the day and asked whether I wanted to cut it off.
-
-* I told him to **let it run**, and by the end of the day, the system had made **\$340,000**.
-
-* That moment was a powerful proof point — not just that the system worked, but that it could operate independently, even while I pursued other parts of life.
-
-* In **late 1990**, I got my first real connection to the **Internet**, using **PPP over a modem**.
+\$1, I got my first real connection to the **Internet**, using **PPP over a modem**.
 
 * My initial ISP was **Pipeline.com**, which would later become **MindSpring.com**.
 
