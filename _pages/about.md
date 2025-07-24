@@ -300,5 +300,3 @@ We’re building out the rest of the site:
 * ⏳ Essays & Reflections
 * ⏳ Personal (Woodstock, Queens College, etc.)
 
-</div>
-
