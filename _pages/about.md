@@ -3,7 +3,6 @@
 layout: single
 title: "About"
 permalink: /about/
-------------------
 
 <details>
 <summary><strong>My Beginning in Computers</strong></summary>
