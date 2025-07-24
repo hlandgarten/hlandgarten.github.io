@@ -5,8 +5,6 @@ title: "About"
 permalink: /about/
 ------------------
 
-<div markdown="1">
-
 <details>
 <summary><strong>My Beginning in Computers</strong></summary>
 <div markdown="1">
