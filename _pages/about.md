@@ -3,48 +3,446 @@
 layout: single
 title: "About"
 permalink: /about/
-
----
+------------------
 
 <details>
-<summary><strong>My Beginning in Computers</strong></summary>
+<summary><strong>Before the Machines (1951–1968)</strong></summary>
 <div markdown="1">
 
-* At **16**, I started college as a **Computer Science major** at **Queens College**.
+* I was born on **November 23, 1951**.
 
-* The school had only a **Xerox-built mainframe**, and all programming was in **Fortran** via **punch cards**.
+* For reasons never fully explained to me, I qualified for a **two-year SP program** in junior high school.
 
-* You’d type each line onto a punch card, submit a stack, and wait **a week** for results—often discovering only a syntax error.
+  * As a result, I attended only **7th and 9th grade**, skipping **8th grade entirely**.
 
-* Frustrated by this process and poor instruction, I left the major—but not my passion for computing.
+* Combined with my **late-year birthday**, this meant I was **younger than nearly everyone** at my educational level — which is how I ended up starting **college at age 16**.
 
-* Built advanced **Heathkits**, ending with a **digital FM receiver**.
+* Moved from **Flushing** to **Douglaston**. Before then, I had been quite **shy and repressed**, not one to speak up or seek the spotlight.
 
-* Ordered one of the first **HP-85** calculators—waited **three months** for delivery.
+* That started to change after the move. Around that time, my parents bought me a **chemistry set**, which I enthusiastically set up in the **basement** of our new home.
 
-* Used it in place of a slide rule during physics courses.
+* I began conducting experiments, and by the third or fourth one, I learned how to make **purple dye**.
+
+* When the experiment succeeded, I excitedly dumped the dye into the basement sink — not realizing my **mother was soaking her best linens** in that very sink.
+
+* The linens all turned purple. My chemistry set **disappeared shortly thereafter**, and that experience left me with a **lifelong aversion to chemistry**.
+
+* It also pushed me further toward interests like **electronics, music, and computing**.
+
+* I did take one **college chemistry course**, but struggled to stay interested. I ended up **just reading the textbook**, taking the **final exam**, and scoring a **90**, which **blew the curve** — much to the frustration of my classmates.
+
+* By **age 12**, I had taken up **golf**, which gave me a taste of competition and began drawing me out of my shell., which gave me a taste of competition and began drawing me out of my shell.
+
+* I discovered I thrived in **competitive environments** — not just golf, but also **bowling**, and even **archery**, where I won a **trophy at day camp at age 14**.
+
+* These early competitive outlets shaped me profoundly. They helped me build confidence, learn to focus under pressure, and ultimately gave me the mindset that carried into tech and business.
+
+* I’ve always had a strong sense of **independence**, even as a child — but my **rebelliousness** didn’t really emerge until I started **college**.
+
+* Learned to drive from both my **mother and father** in **early 1968**, shortly before I started college.
+
+* Before my uncle moved to Worcester, **Uncle Gerald** lived with his family on the **opposite corner of our block**.
+
+  * We had one corner; they had the other. I used to **play with my cousins** all the time.
+  * When they moved to **Worcester**, it was **a little upsetting to me** as a child — it changed the dynamic of our close-knit family life.
+
+* Joined the **New York Audio Society** and regularly attended their meetings.
+
+* At **age 18**, I subscribed to the **New York Philharmonic** and would attend concerts with my brother.
+
+* As with all things I’m passionate about, I dove deep — I’ve always been **insatiably curious**, and **audio technology** became a serious pursuit.
+
+* Studied under **Dr. Banesh Hoffmann** at **Queens College**
+
+  * A renowned physicist and mathematician best known for co-authoring *Relativity: The Special and the General Theory* with **Albert Einstein**.
+  * Hoffmann had been one of Einstein’s closest collaborators and advocates, helping defend and communicate the ideas of general relativity.
+  * He became a **mentor and advocate** for me during my college years and had a profound influence on my thinking.
+  * He wrote me an extraordinary **letter of recommendation**, calling me *“the best student I’ve had in 30 years of teaching”* and saying he *expected big things from me*.
+  * That letter has remained one of my most cherished acknowledgments — and a reminder of the power of mentorship in shaping a life.
+  * Hoffmann inspired in me a love for **systems thinking**, abstraction, and intellectual rigor that I carried into computing, strategy, and innovation.
+  * A renowned physicist and mathematician who co-authored *Relativity: The Special and the General Theory* with **Albert Einstein**.
+  * Dr. Hoffmann had been one of Einstein’s closest collaborators and defenders of general relativity.
+  * He became a mentor and advocate for me during my time at Queens.
+  * He wrote me a heartfelt and deeply intellectual **letter of recommendation**, in which he said I was the best student he had had in his 30 years of teaching and that he expected big things from me. I've kept the letter to this day as a cherished memento of his confidence and guidance.
+
+</div>
+</div>
+</details>
+
+<details>
+<summary><strong>Next Chapter: 1990s–2016</strong></summary>
+<div markdown="1">
+
+The early 1990s marked a turning point. While I had already stepped away from day-to-day operations at NCTI, I was not finished creating. My focus turned toward **digital systems, decision theory, and complex modeling** — all informed by the lessons of the past decade.
+
+### The 1990s
+
+* Over the course of the 1990s, I played **Shadow Creek Golf Course** — then owned by **Steve Wynn** — approximately **140 times**.
+
+* It was an incredibly exclusive course, and people constantly asked me if I could get them access — but even I couldn’t bring guests unless invited.
+
+* One especially memorable stretch was in **January of one year**, when **Mike Paschal**, a casino executive and friend, asked me to help **Kenny Green**, a PGA Tour pro who was recovering from injury.
+
+* I spent **a full month playing daily rounds at Shadow Creek with Kenny Green** to help him prepare for his return to the tour.
+
+* It was not only a generous ask, but one of the most enjoyable and meaningful experiences I’ve ever had on a golf course.
+
+* We were invited to the **grand opening of MGM’s Studio 54** in Las Vegas, a major social and celebrity event.
+
+* **Elton John** performed live on the piano for hours, while upstairs, JoAnn and I sipped cocktails with **Tony Curtis**.
+
+* We were also invited to the **opening of the Bellagio**, a landmark moment in Las Vegas history.
+
+  * We were flown in by **private jet from New York**.
+  * Upon landing, we were **registered into the hotel while still on the runway** — a level of service I had never experienced before.
+  * The opening event featured an extraordinary **performance by Van Cliburn**.
+
+* The number of **celebrities we encountered and social moments we were part of** during this era is simply too long to list.
+
+* I was also invited to several **pro-am events at Shadow Creek Golf Course**, which was then owned by **Steve Wynn**.
+
+* These events paired me and guests with **two professional golfers**, and I had the privilege of playing in these **about a dozen times**.
+
+* I have **photos from many of those rounds**, and on one occasion, I invited an investment partner to join me — a favor he repaid by inviting me to **Augusta National for The Masters** the following year.
+
+* In addition to the golf and fight invitations, JoAnn and I were also **invited to three or four Super Bowls**.
+
+* After one of them — held in **Miami** — we stayed **four nights at Mar-a-Lago**, and were **flown back to Atlantic City** afterward.
+
+* On my continued trips to **Las Vegas** and other casinos during the 1990s, I was fortunate to play some of the **best golf courses in the world**, often getting invited to **pro-am tournaments** with both **senior and active PGA professionals**.
+
+* I also received invitations to **nearly every major championship fight** held during that decade.
+
+* One particularly unforgettable moment was attending the infamous **“bite fight”** between **Mike Tyson and Evander Holyfield** at the MGM Grand.
+
+* JoAnn and I had **excellent seats**, about 15 rows from the ring, and witnessed the entire event firsthand.
+
+* We saw **Tyson bite Holyfield’s ear**, and not long after, noticed a separate fight break out in the **upper balcony**, where someone struck another person with a chair.
+
+* At ringside, **Donald Trump** was visible — he immediately grabbed his date and rushed out once chaos broke.
+
+* JoAnn and I made our way into the **casino area**, where we had dined earlier that night at the **Brown Derby**. While JoAnn went to retrieve our souvenir photo from the restaurant, I wandered into the casino.
+
+* The atmosphere was chaotic but electric — I joined a **craps game** near the front, and someone was on a very long roll.
+
+* Suddenly, a **pit boss yelled “someone’s got a gun!”**, and the casino **erupted into panic**.
+
+  * Players grabbed chips and hid under tables.
+  * JoAnn took cover behind a **slot machine**.
+
+* I later learned that the **high-stakes blackjack tables were overturned**, and **\$25,000 chips were scattered** across the floor.
+
+* Some high-profile attendees — including notable sports figures — were caught pocketing chips and faced serious consequences. The casino ultimately decided to **change all their chips** to prevent any further misuse, underscoring the severity of the incident.
+
+* The **Las Vegas Strip was shut down**, and we couldn’t get a **limo pickup for hours**.
+
+* Most shocking of all: **none of this made the news**. While the ear bite made headlines, the riot and city-wide lockdown did not — a sign of how **Las Vegas controls its own narrative**.
+
+* That **craps game**, mid-hot streak, was never resumed — likely one of the only times a **long run at a Vegas craps table ended unfinished**.
+
+* I have a memorable story to share from that night, which may be worth highlighting on the site separately.
+
+* One of my earliest memorable Las Vegas experiences occurred in **1988**, during my time with **Noise Cancellation Technologies**.
+
+* I was in Las Vegas with a key business contact, and the casino had given me **tickets to the Sugar Ray Leonard vs. Marvin Hagler fight**, which was happening that night.
+
+* Originally, **JoAnn was going to attend with me**, but she generously gave up her seat so I could entertain the business guest.
+
+* The fight turned out to be historic — **Sugar Ray Leonard won**, and it made a lasting impression.
+
+* It also showed me how valuable these moments could be for building **meaningful business relationships**.
+
+* Beginning in the **late 1980s**, I started regularly attending **Comdex** in Las Vegas, as well as the **Consumer Electronics Show** in later years.
+
+* As I returned year after year, I realized how important it was to develop **relationships with casino executives (CNOs)** to gain access to logistics during high-demand events — things like **limos, reservations, and private meeting space**.
+
+* One memorable instance during Comdex: I needed to hold a business dinner at the **top restaurant in the Las Vegas Hilton**, but the ideal table was already taken.
+
+* I reached out to my **casino contact**, who persuaded the restaurant to **move the current diners elsewhere** so we could use that table.
+
+* It was a vivid demonstration of the **power of relationships** and how strategic partnerships could enhance both **business outcomes** and **lifestyle experiences**.
+
+* In **November 1991**, JoAnn and I bought our new home in **Old Brookville, Long Island**, and moved in during the **first half of 1992**.
+
+* On a sad note, **my father passed away in 1994**, followed just six months later by **my mother**.
+
+* In **1996**, **JoAnn’s mother** also passed away, marking a profoundly difficult personal chapter amidst my technical and professional growth.
+
+* Of course, the advantages I had found in the early-to-mid '90s wouldn't last forever. By the time **2000** arrived, most of them had **petered out** as more traders and institutions entered the digital space.
+
+* However, something important changed in 2000 — the release of the **first fully electronically traded futures contract**, the **E-mini S\&P (ES)**.
+
+* When it first launched, access to the ES was limited to **special terminals**, and most S\&P trading was still done **in the Chicago pits**.
+
+* Around this time, I began stepping back from active trading again and redirected my focus to the **emerging world of internet technology** and broader computing trends.
+
+* I attended an **AIQ seminar** in **Miami**, where I first saw the potential of applying technical software to **futures market analysis**.
+
+* At the time, I was already running the **first version of TradeStation** on my home computer, connected to a **Signal data feed** via a crude **FM antenna**.
+
+* Inspired by the seminar, I began building my **first futures trading system** — and the results were promising. TradeStation was generating **profitable signals**.
+
+* The challenge: there was **no efficient way** to transmit these orders to the **futures pits** for real-time execution.
+
+* Working with **Eldon Ziegler** and my **broker**, we devised a system:
+
+  * Eldon built software to capture **TradeStation's output** and transmit the orders via **high-speed modem** to a receiving computer at the broker’s office.
+  * The broker’s staff would then **immediately phone the orders** into the trading pits.
+
+* This system — developed in **1993–1994** — was **functionally the first trading bot** I’m aware of.
+
+* It may have been a **first-of-its-kind solution**, bridging real-time analysis with automated trade dispatch.
+
+* As the system continued to prove itself, I sought a more reliable data feed and eventually installed a **satellite dish on the roof**, which fed **TradeStation** with higher-quality, real-time market data.
+
+* During this phase, I found myself in a position where I could **play golf at my country club** while my computer traded futures in the background.
+
+* One memorable day, while on the back nine, my **broker called me**. I feared something had gone wrong — but he was calling to say the system was up **\$150,000** on the day and asked whether I wanted to cut it off.
+
+* I told him to **let it run**, and by the end of the day, the system had made **\$340,000**.
+
+* That moment was a powerful proof point — not just that the system worked, but that it could operate independently, even while I pursued other parts of life.
+
+* In **late 1990**, I got my first real connection to the **Internet**, using **PPP over a modem**.
+
+* My initial ISP was **Pipeline.com**, which would later become **MindSpring.com**.
+
+* I quickly became adept at using early **web browsers** like **Netscape**, and began exploring the growing universe of online content.
+
+* After receiving the **York Research settlement** in the summer of 1990, I also began learning about **investing**.
+
+* I took courses at the **New York Institute of Finance** with renowned technician **Ralph Acampora**, gaining insight into **how markets worked**.
+
+* I revisited software from **AIQ Systems**, a company I had helped during my Lifeboat days, and began actively using it in my trading and analysis.
+
+* During the 1990s, I explored emerging opportunities in **custom software development**, **signal processing**, and **probability-based modeling**, applying systems-level thinking to new domains.
+
+* I focused heavily on developing and refining **real-time tools** that could ingest and transform streaming data, including early financial data feeds.
+
+* These efforts were not yet formal AI but laid the **technical and conceptual foundation** for everything that came later.
+
+* I continued to study **decision theory**, **market structure**, and the philosophical underpinnings of prediction — insights that would later shape my model design.
+
+* This was a time of **deep learning through doing** — refining tools, debugging edge cases, and steadily building toward something more scalable and strategic.
+
+* With the rise of personal computing and networked systems, I began developing **custom software and signal processing tools** from scratch.
+
+* I became especially interested in **probabilistic modeling**, **real-time data analysis**, and **feedback-driven systems** — all of which would later shape my AI work.
+
+* This was a time of **experimentation**, personal growth, and strategic reorientation.
+
+After stepping back from active involvement in NCTI in 1990, I stood at a new crossroads. While I had helped pioneer technologies in BIOS, co-processing, terminal emulation, and noise cancellation, the early 1990s were a time of reorientation and experimentation — not yet focused on AI, but on building tools and systems for data handling, modeling, and analytics.
+
+This period laid the groundwork for later innovations but was still rooted in classic systems thinking, software craftsmanship, and custom applications. My interest in **AI modeling** and formalizing probabilistic forecasting would not begin in earnest until **2016**.
+
+What came next would still draw heavily on all I’d learned — in business, engineering, and leadership — as I began laying the intellectual foundations for what would eventually become my AI work. This period marked the transition from engineering founder to seasoned strategist.
+
+</div>
+</details>
+
+</details>
+
+<details>
+<summary><strong>Innovating in Noise Cancellation (1985–1990)</strong></summary>
+<div markdown="1">
+
+* After leaving Techland, I was contacted by **Mike Parella**, who invited me to help restructure **Noise Cancellation Technologies Inc. (NCTI)**, a struggling public company based in **Miami**.
+
+* One of my first tasks was to fly to **Essex, England**, to meet **Professor Chaplin** at the **University of Essex** and secure the **PAC patents** on active noise control using **Fast Fourier Transform (FFT)**.
+
+  * Despite the university's frustration over previous mismanagement, I built trust and **closed the deal**, paying **£100,000** for the rights.
+
+* After returning, I asked **Eldon Ziegler** to fly to Miami and evaluate the company's assets.
+
+  * His verdict: fire everyone and liquidate everything — nothing was usable.
+
+* I hired Eldon as **VP of Engineering** and had him open a lab in **Columbia, Maryland**, while I opened an executive office in **Great Neck, NY**, where I hired about a dozen people.
+
+* A few months later, **John McCloy Jr.** joined the company. He was the son of **John J. McCloy**, a key figure in 20th-century American diplomacy and the man credited with negotiating the resolution of the **Cuban Missile Crisis**.
+
+  * I visited John's father in **Greenwich** when he was 92 — a truly memorable experience.
+
+* John introduced me to many influential contacts, including the **Secretary of Defense**, whom we met with at the **Pentagon**.
+
+  * NCTI began selling noise cancellation systems to the **U.S. military**.
+
+* John and I traveled extensively, including trips to **Berlin and Munich**.
+
+  * In Berlin, he was treated with great respect because of his father’s legacy.
+  * I attended the **final concert conducted by Herbert von Karajan**, where Beethoven’s **Ninth Symphony** was performed.
+  * I also crossed into **East Berlin** with one of John’s friends — a surreal and unsettling experience.
+
+* In **1989**, I flew to **Seattle** to help one of our salespeople close a deal with **Boeing**.
+
+  * My flight was delayed until **3 AM**, and I flew in the middle of a row of five, flanked by two nuns on each side.
+  * Despite no sleep, I closed the deal the next day.
+
+* After I sold my York Research stock in **1990**, I stepped away from active involvement in NCTI.
+
+📰 **Media Coverage**:
+
+* Featured in **The New York Times**:
+
+  * “You Can't Stand the Noise? Get an Anti-Noise Machine” — [March 2, 1988](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html)
+  * “New Technology Defeats Unwanted Noise” — [June 30, 1987](https://www.nytimes.com/1987/06/30/science/new-technology-defeats-unwanted-noise.html)
+
+🎯 **Applications**:
+
+* Industrial fans
+* HVAC systems
+* Vibration and water surface control
+* Automotive and defense
+
+🎥 **Media Recognition**:
+
+* Featured in **The Economist**
+* Live demo on **Good Morning America**
+* Profiled by **Innovation TV**
+
+</div>
+</details>
+
+<details>
+<summary><strong>Leading Techland Systems (1982–1985)</strong></summary>
+<div markdown="1">
+
+* After leaving Xedex in 1982, I founded **Techland Systems Inc.**, taking my entire team with me.
+* I brought on **Richard Clowes**, a top former IBM salesperson, as **VP of Sales**.
+* With the support of **Neil Colvin** and **Mike Aaronson**, I was introduced to **Reed Smith** and his colleague **Bob**, who had developed **3270 terminal emulation software**.
+* This became the foundation of **BlueLynx**, our flagship product.
+* Ironically, had things played out differently, BlueLynx might have become part of the Xedex product line — but instead, it was the core of something much bigger.
+* **Techland** would ultimately earn me **\$3.3 million**, but that payoff came years later.
+
+### BlueLynx and TwinX
+
+* **BlueLynx** provided **3270/5250 terminal emulation** and full **SNA/SDLC** mainframe connectivity.
+* A **1984 DataPro report** praised it as a standout solution. ([Bitsavers PDF](https://www.bitsavers.org/pdf/datapro/protocol_conversion_systems/C23-825_Techland_Systems.pdf))
+* It could emulate a **5251 Model 12** terminal and support **5256 printers**.
+* We also released **TwinX**, a product that enabled Twinax connectivity to **IBM System/34 and 36**.
+
+### Expansion and Growth
+
+* In our first year, Richard Clowes brought in **\$2 million in revenue**, landing major clients like **RJR Reynolds**, **New England Life**, and the **Federal Reserve Bank of San Francisco**.
+* We grew to **50 employees** and opened offices at **Waterside Plaza** on the East River in New York.
+* We launched a **Techland subsidiary in London**, run by Richard’s brother.
+* Richard and I often flew over on the **Concorde**, and we expanded manufacturing by arranging **cost-effective hardware production in Malaysia**.
+
+> On one such trip: we flew Concorde to London, then first-class via Singapore Airlines to China with stops in the New Territories and Bombay, and returned to NYC on Concorde — the entire journey cost just **\$1,500 per person**.
+
+### Eldon Ziegler and Product Development
+
+* I wanted to build a personal information manager and asked **Neil Colvin** for a recommendation.
+* He referred me to **Eldon Ziegler**, the best software developer he knew.
+* Eldon joined to work on **a single software product** and delivered incredible results.
+* Later, I would hire him again — this time as **VP of Engineering at NCTI** — where he played a much larger role in shaping the company.
+* Over time, he became a **lifelong friend and collaborator**.
+
+### Sale and Aftermath
+
+* In **1985**, we were approached by **Bob Benningson** of **York Research**, who wanted to acquire Techland.
+* After a year of negotiations, we sold Techland and became a **public company**.
+* Within a month, I discovered the new owners had stopped **paying payroll taxes** to save cash.
+* On the advice of my lawyers, I resigned immediately.
+* York Research later **sued to reclaim our stock**, launching litigation that lasted until **1990**.
+* That summer, Benningson settled with me, and I sold all my York shares for **\$3.3 million**.
+* The other original shareholders persisted and ultimately **won their case in 1991**.
+
+</div>
+</details>
+
+<details>
+<summary><strong>Xedex & BabyBlue (1981–1982)</strong></summary>
+<div markdown="1">
+
+* In **1981**, I was approached by **Mike Aaronson**, who needed help raising funds for a Z80-based coprocessor card he had developed.
+* His invention would allow the **IBM PC**, which had just been released, to run **CP/M programs** — a huge deal since most useful software still ran on CP/M.
+* I helped him structure a deal to raise **\$10,000**, and in the process decided to leave Lifeboat and form a new venture.
+* I teamed up with **Roland Joffe** (head of marketing at Lifeboat), his assistant **Rebecka**, and engineer **Bob Hassel**, and we founded **Xedex**.
+* Roland established our main office in a **house on 6th Avenue in Burlington**, and hired top PR firm **Burson-Marsteller** to handle publicity.
+* Bob opened a production office in **Suffern, New York**, where he began manufacturing what we called **BabyBlue**.
+* Within five months, we were shipping product and getting strong coverage in the press.
+
+> 📰 In **February 1982**, UPI reported:
+> “XEDEX President Harris Landgarten said Baby Blue ‘will make the IBM machine more versatile than an Apple or a Tandy microcomputer in terms …’” — [UPI Archives](https://www.upi.com/Archives/1982/02/17/A-5-week-old-computer-company-Wednesday-unveiled-a-product-it/5338382770000)
+
+* I knew early on that the **hardware and software had a limited shelf life** — the industry was evolving rapidly.
+* Unfortunately, in late 1982 I discovered that **Bob Hassel** was sabotaging the hardware and had made a deal with the investor to **force me out**.
+* I was **fired**, and took my team with me to start **Techland Systems**.
+* Although I had to leave BabyBlue behind, I wasn't bitter. I had helped birth an idea and a product that was real — and I was about to do something even more impactful.
+* It's worth noting that **BabyBlue II**, a later version of the product, was developed **after I had left the company**.
+
+</div>
+</details>
+
+<details>
+<summary><strong>Working at Lifeboat Associates (1980–1981)</strong></summary>
+<div markdown="1">
+
+* In **1979**, I got a call from **Tony Gold**, president of Lifeboat Associates, inviting me to join the company.
+* In **1980**, I left my family's plumbing supply business to take the leap into software.
+* At Lifeboat, I edited and published our newsletter, **Lifelines**, and one of my main responsibilities was writing a **weekly editorial**.
+* These editorials discussed industry trends and often highlighted **technical issues** or **bugs** in common tools and compilers.
+* I took pride in **documenting compiler bugs** — particularly in BASIC — to help fellow programmers avoid pitfalls.
+* This transparency occasionally sparked backlash, especially from **Bill Gates**, who would personally call to complain when I published bugs related to Microsoft BASIC.
+* Still, I believed in giving developers clear, honest information to work with.
+
+### Industry Collaboration
+
+* I negotiated **royalty contracts** with independent developers and third-party software authors.
+* These included major relationships:
+
+  * **Micro Focus** – COBOL compilers
+  * **Peter Rozen** – TMaker
+  * **Balcones Software** – accounting systems
+  * I frequently traveled to **Austin, TX** to coordinate with Balcones.
+
+### Ford & Microsoft
+
+* I helped **Ford Motor Company** develop its **early PC strategy**, and flew solo to present at their **Renaissance Center** headquarters in Detroit.
+* Around that time, I also attended an **Intel conference in Oregon** with **Neil Colvin**.
+* After the conference, **Bill Gates** personally gave Neil and me a tour of what would become **Microsoft’s first campus** in **Redmond**.
+* At that moment, Microsoft had only leased **half the building**, but it was clear they were on the brink of something much larger.
+* It was one of those moments that reminded me how far I'd come — from a quiet, technical kid to someone confidently speaking to senior execs at a Fortune 500 company.
+
+### BIOS Opportunity
+
+* I also worked closely with **Neil Colvin** of Phoenix Technologies and **Mike Aaronson**.
+* I tested early BIOS products like **P-Mate**, and I was the one who first suggested there was a market need for a **third-party BIOS** — an idea that became foundational to the PC clone industry.
+
+</div>
+</details>
+
+<details>
+<summary><strong>My Beginning in Computers (1975–1980)</strong></summary>
+<div markdown="1">
+
+* After graduating college, I remained deeply interested in electronics and computing.
+* Frustrated by early Fortran programming using **punch cards** and long turnaround times, I was eager for more immediate feedback.
+* I built a number of **advanced Heathkits**, including a **digital FM receiver**.
+* I ordered one of the first **HP-85** calculators and used it for physics calculations — it replaced the slide rule.
 
 ### Enter the Altair
 
-* Bought an **audio sweep generator kit** from **MITS** in 1973 to align tape heads on my **TEAC** reel-to-reel.
-* MITS sent me a **\$100 discount certificate** in 1974.
-* When the **Altair 8800** was introduced in *Popular Electronics*, I ordered one immediately—in kit form.
-* Built it myself: it had just **256 bytes of memory** and blinking LEDs.
+* In 1973, I bought an **audio sweep generator kit** from **MITS** to align tape heads on my **TEAC** reel-to-reel.
+* MITS later sent me a **\$100 discount certificate**, and when they introduced the **Altair 8800** in *Popular Electronics* (1975), I ordered the kit immediately.
+* Built it myself — it had **256 bytes of RAM** and blinking LEDs.
 
-### BASIC Changed Everything
+### BASIC Changes Everything
 
-* Upgraded to **4 KB of RAM** and received **Microsoft BASIC on paper tape**.
-* For the first time, I could **write code and get instant results**.
-* This was a revelation after the week-long delays in college labs.
+* I later upgraded the Altair to **4 KB of RAM** and loaded **Microsoft BASIC** from **paper tape**.
+* It was the first time I could write code and get immediate results — a major shift from the delayed punch card workflows.
 
 ### Building Real Software
 
-* Bought an **IMSAI Z-80 system** and wrote a full **invoicing, packing list, and A/R system** in BASIC for my father’s business.
-* Stored everything on **cassette tape**—no floppy disks yet.
-* Ran **CP/M**, and bought software from **Lifeboat Associates**.
+* After graduating in **December 1975**, I worked full-time at **Ace Brass**, my father's business.
+* I had moved out of my parents' house in **1974** and was living in an apartment when I met **JoAnn** in December 1975.
+* We were married on **May 6, 1978**, and bought our **first house in Douglaston** a year later, in **1979** — a major step forward in both our personal and professional lives.
+* During this time — between graduation and my joining **Lifeboat Associates** — I had the opportunity to write several complete software systems.
+* I purchased an **IMSAI Z-80 system** and developed a full **invoicing, packing list, and accounts receivable system** in BASIC for the business.
+* Storage was done on **cassette tape** — floppy drives were not yet available.
+* The system ran **CP/M**, and I sourced software from **Lifeboat Associates**, where I would later go on to work.
 
-> That Altair wasn’t just my first PC.
-> It was the gateway to a career in tech.
+> That Altair wasn’t just my first PC. It was the **gateway to a lifelong career in tech**.
 
 ![Altair 8800](/assets/images/altair-8800.jpeg)
 *Altair 8800 – the first widely recognized personal computer*
@@ -55,249 +453,57 @@ permalink: /about/
 </div>
 </details>
 
----
-
 <details>
-<summary><strong>Working at Lifeboat Associates</strong></summary>
+<summary><strong>College and the Draft (1968–1975)</strong></summary>
 <div markdown="1">
 
-* In **1979**, **Tony Gold** (President of Lifeboat) called and offered me a job.
-* In **1980**, I left my family’s plumbing supply business and joined **Lifeboat Associates**.
+* I started college at **Queens College in fall 1968**, during the height of the **Vietnam draft**.
 
-### Key Contributions:
+* I registered for the **draft on my 18th birthday**, but had a **college deferment** as long as I stayed enrolled.
 
-* Edited and published **Lifelines**, our customer newsletter.
+* To stretch that deferment, I only registered for **12 credits per term**.
 
-  * I openly documented **bugs in major software** — sparking strong reactions, including from **Bill Gates**.
-* Negotiated **royalty contracts** with prominent developers.
+* I began as a **Computer Science major**, but after my first year, **Queens College dropped required courses** — which meant I no longer had to take English classes that didn’t interest me.
 
-### Industry Collaboration:
+* From then on, I only took courses that **captivated me** — **physics**, **math**, **business law** — but continued at a slow pace.
 
-* **Micro Focus** – COBOL compilers
-* **Peter Rozen** – TMaker
-* **Balcones Software** (Austin, TX) – advanced accounting
+* I enjoyed getting involved in my **house plan**, didn’t push myself too hard, and pursued my interests on my own terms.
 
-  * Traveled there frequently
+* I joined the **Queens College golf team**, where I met **Danny Rosenthal**, who would later become a longtime friend and **CFO of Techland Systems**.
 
-### Ford & Microsoft
+* In **August 1969**, I attended **Woodstock** with some friends. On the drive up, our car **overheated**, forcing us to **pull over and wait by the side of the road** while it cooled.
 
-* Helped **Ford Motor Company** develop its **early PC strategy**.
+  * We eventually made it to the festival, where we joined hundreds of thousands in the **mud and music** — an experience that left a lasting impression.
 
-  * Presented at the **Renaissance Center** in Detroit.
-* After an Intel conference in Oregon, **Bill Gates** gave **Neil Colvin** and me a personal tour of **Microsoft’s first Redmond campus**.
+* I was also an **avid bowler** in college — I competed on multiple **five-man teams**, participating in **Kegler tournaments** on weekends.
 
-  * They had only leased **half** the building at the time!
+  * We did well, and I won numerous **trophies**, including one for bowling a **278 game** — 11 strikes followed by 8 pins — just shy of a perfect 300.
+  * I received a **special trophy** for that achievement.
 
-### Behind the Scenes with Bill Gates
+* In **1972**, my father became ill, and I took a **leave of absence** from college to run the family business, **Ace Brass**.
 
-* Discussed his mission to stop **software piracy**.
+* My **grandfather**, who died right around the time I was born, had been a partner in a larger business called **Sanitary-Dash**, where both my father and his twin brother worked.
 
-  * His idea: **OEM bundling** — software pre-installed on computers.
-* This approach led to deals with **Tandy**, among others.
-* Ironically, it also laid the foundation for Microsoft’s **antitrust troubles**.
+* When I was around **four or five**, Sanitary-Dash decided to relocate its operations to **Worcester, Massachusetts**.
 
-### BIOS Opportunity
+* My father and mother didn’t want to move, so my father left the company and started a **smaller business**, founding **Ace Brass Manufacturing** in **Brooklyn**.
 
-* Had a close partnership with **Neil Colvin** (Phoenix Technologies).
-* Tested **P-Mate** for **Mike Aaronson**, Neil’s friend.
-* I was the one who suggested the market need for **third-party BIOS**—vital to launching the **IBM PC clone industry**.
+* Ace Brass had a compact but capable factory setup with **cutting machines, dealing machines, punch presses, threading machines, and saw sharpeners**.
 
-> I didn’t get a commission—but I helped launch an industry.
+* During that year, I learned to **set up and operate all the machines** myself.
+
+* When I returned to school, the **draft was no longer a concern** — I had a high **lottery number**, declared myself **1-A**, and was no longer at risk.
+
+* I decided to **re-dedicate myself to finishing school**, switching to a **Math major** since I had already accumulated the most credits in that area.
+
+* I entered a full-on **learning sprint**, taking **18 credits per term**, plus **summer courses**.
+
+* It was during this time that I studied under **Dr. Banesh Hoffmann**, who became a pivotal mentor.
+
+* I graduated in **December 1975** — the same month I met **my future wife, JoAnn**.
+
+* We were married on **May 6, 1978**.
 
 </div>
 </details>
-
----
-
-<details>
-<summary><strong>Xedex & BabyBlue</strong></summary>
-<div markdown="1">
-
-* In **1981**, I was approached by **Mike Aaronson**. His son needed an important operation, and he asked me to help structure a deal through which he could receive **\$10,000** for his invention.
-* In exchange, he offered rights to a **Z80-based coprocessor** he had developed that, when installed in an **IBM PC**, allowed it to run **CP/M programs** not available for the 8086.
-* I put together a deal and left **Lifeboat** with **Roland Joffe** (head of marketing), his assistant **Rebecka**, and **Bob Hassel** (engineer and BIOS programmer).
-* Together we founded **Xedex** to build and market the coprocessor, which we named **BabyBlue**.
-* Roland Joffe founded our main office in a Burlington house on **6th Avenue**, and also hired **Burson-Marsteller** as our public relations agency. Meanwhile, Bob opened an office in **Suffern, NY** to manufacture the boards.
-* Within five months, we were shipping — and BabyBlue quickly earned **tremendous press and notoriety**.
-* I wasn’t upset about leaving, though — I knew from the start that BabyBlue’s software and hardware had a **limited lifespan**.
-* Ironically, the investor who sided with Hassel was left with a product that had little future — while I was free to build something more enduring at Techland.
-* It's important to note that the later **BabyBlue II** version was developed **after I left Xedex**. My direct involvement was with the original BabyBlue and the formation and early success of the company.
-
-![BabyBlue Board](/assets/images/babyblue-card.jpg)
-*Original Xedex BabyBlue Z80 Coprocessor Card*
-
-> 📰 In **February 1982**, UPI reported:
-> “XEDEX President Harris Landgarten said Baby Blue ‘will make the IBM machine more versatile than an Apple or a Tandy microcomputer in terms …’”
-> — [UPI Archives](https://www.upi.com/Archives/1982/02/17/A-5-week-old-computer-company-Wednesday-unveiled-a-product-it/5338382770000)
-
-</div>
-</details>
-
----
-
-<details>
-<summary><strong>Leading Techland Systems</strong></summary>
-<div markdown="1">
-
-* In **late 1982**, I discovered that **Bob Hassel** had been sabotaging our hardware at Xedex.
-* He had made a deal with the investor to take over the company.
-* I was informed that I was **fired**, and in response, I took my entire team and launched a new company: **Techland Systems Inc.**
-* As part of building Techland, we brought in **Richard Clowes**, a former top IBM salesperson, as **VP of Sales**.
-* Understanding our situation, **Neil Colvin** and **Mike Aaronson** connected me with **Reed Smith** and his friend **Bob**, who had developed **3270 emulation software** that would evolve into **BlueLynx**.
-* Had I been dealt with honestly, BlueLynx would likely have become part of Xedex’s product line.
-* Ultimately, Techland proved to be a far better outcome — it eventually earned me **\$3.3 million**, though that part of the story comes later.
-
-### Product Spotlight: BlueLynx & TwinX
-
-* Techland’s **BlueLynx** product line offered full **3270/5250 terminal emulation** for IBM mainframe connectivity, supporting **SNA/SDLC** networks.
-
-* A 1984 **DataPro industry report** named BlueLynx a standout in protocol conversion systems. ([Bitsavers report](https://www.bitsavers.org/pdf/datapro/protocol_conversion_systems/C23-825_Techland_Systems.pdf))
-
-* BlueLynx made the PC appear to the host as a **5251 Model 12** terminal and could interface with **5256 dot-matrix printers**.
-
-* We also developed **TwinX**, a solution for local Twinax connectivity to **IBM System/34 and System/36** minicomputers.
-
-* In the first year alone, **Richard brought in \$2 million in sales**, landing major clients like **RJR Reynolds**, **New England Life**, and the **Federal Reserve Bank of San Francisco**.
-
-* Soon, we had **50 employees** and offices at **Waterside Plaza** on the East River in New York.
-
-* We launched a **Techland subsidiary in London**, run by **Richard Clowes' brother**. Richard and I would fly over on the **Concorde** a couple of times a year.
-
-* We also flew to **Singapore**, where we arranged lower-cost manufacturing for BlueLynx hardware in **Malaysia**.
-
-> At the time, the dollar was at an all-time high.
-> We booked a round-the-world trip: Concorde to London, first-class Singapore Airlines to China, stops in the New Territories, return via Bombay.
-> Total cost: **\$1,500 per person.**
-
-* While at Techland, I also wanted to create a personal information management software product.
-
-* I asked **Neil Colvin** for a recommendation. He said the best application developer he knew was **Eldon Ziegler**.
-
-* We hired Eldon, who delivered excellent software and became a lifelong collaborator and friend.
-
-* In **1985**, **Bob Benningson** of **York Research** expressed interest in acquiring Techland.
-
-* After a year of negotiations, we sold the company to York — and became a **public company**.
-
-* Within a month of the merger, I discovered the new owners had **stopped paying payroll taxes** to conserve cash.
-
-* My lawyers advised me to **resign immediately**.
-
-* After I left, **York Research sued** us to recover the stock.
-
-* The litigation lasted until **1990**, when **Bob Benningson settled with me**.
-
-* I sold my **York stock for \$3.3 million**.
-
-* Other stockholders persisted and eventually **won the case in 1991**.
-
-</div>
-</details>
-
----
-
-<details>
-<summary><strong>Innovating in Noise Cancellation</strong></summary>
-<div markdown="1">
-
-* After leaving Techland, I was contacted by **Mike Parella** to help reconstitute **Noise Cancellation Technologies Inc. (NCTI)**, a public company in **Miami**.
-
-* One of my first tasks was flying to **Essex**, England to meet **Professor Chaplin** at the **University of Essex**.
-
-  * Our goal was to secure his **PAC patents** for systematic noise control using **Fast Fourier Transform (FFT)**.
-  * I smoothed things over with the university and closed the deal, paying **£100,000** for the rights.
-
-* When I returned, I sent **Eldon Ziegler** to Miami to evaluate NCTI’s technical base.
-
-  * His report was blunt: fire everyone and liquidate the assets — nothing was salvageable.
-
-* I hired Eldon as **VP of Engineering**, and he opened a new **lab in Columbia, Maryland**.
-
-* I also established an executive office in **Great Neck, NY**, hiring a dozen staff to restart the company.
-
-* A few months later, **John McCloy Jr.** joined us.
-
-  * John was the son of **John J. McCloy**, former U.S. High Commissioner for Germany, and considered one of the most influential private citizens of the 20th century.
-  * His father played a critical role in resolving the **Cuban Missile Crisis**.
-  * I visited his father in **Greenwich** when he was 92 — a truly memorable conversation.
-
-* John introduced me to many contacts, including the **Secretary of Defense**, whom we met at the **Pentagon**.
-
-  * NCTI sold systems to the **U.S. military**.
-
-* I also traveled with John to **Berlin** and **Munich**.
-
-  * In Berlin, he was treated like royalty due to his father's legacy.
-  * I had **house seats** for **Herbert von Karajan’s** final concert conducting **Beethoven’s Ninth Symphony**.
-  * I also crossed into **East Berlin** with one of John’s friends — an eerie, unforgettable experience.
-
-* In **1989**, I flew to **Seattle** to help close a deal with **Boeing**.
-
-  * My flight, originally scheduled for 9 PM, was delayed until **3 AM**.
-  * I flew in the middle seat of a row of five, flanked by **two nuns on each side**.
-  * Despite no sleep, I delivered — and **closed the deal**.
-
-* In the **summer of 1990**, after selling my York Research stock,
-  I **stepped away from active involvement** with NCTI.
-
-📰 **Covered by The New York Times**:
-
-* “You Can't Stand the Noise? Get an Anti-Noise Machine”
-  [March 2, 1988](https://www.nytimes.com/1988/03/02/business/business-technology-you-can-t-stand-the-noise-get-an-anti-noise-machine.html) *(subscription required)*
-
-  > This article featured **Harris Landgarten** prominently as a driving force behind NCTI’s commercial and technical breakthroughs, highlighting the real-world promise of anti-noise systems.
-
-* “New Technology Defeats Unwanted Noise”
-  [June 30, 1987](https://www.nytimes.com/1987/06/30/science/new-technology-defeats-unwanted-noise.html) *(subscription required)*
-
-  > This piece explored the science of active noise control and cited **Landgarten** as a key leader bringing it to market.
-
-🛠️ **Real-world applications**:
-
-* Industrial fans
-* HVAC systems
-* Vibration control (including **pools of water**)
-* Automotive
-
-💡 **Media Recognition**:
-
-* Featured in **The Economist**
-* Live demo on **Good Morning America**
-* Interview with **Innovation TV**
-
-</div>
-</details>
-
----
-
-<details>
-<summary><strong>Before the Machines</strong></summary>
-<div markdown="1">
-
-* Attended **Woodstock**
-
-  * Music, mud, movement — and a mindset that stayed with me
-* Studied under **Dr. Banesh Hoffmann** at **Queens College**
-
-  * A renowned physicist and mathematician who co-authored *Relativity: The Special and the General Theory* with **Albert Einstein**.
-  * Dr. Hoffmann had been one of Einstein’s closest collaborators and defenders of general relativity.
-  * He became a mentor and advocate for me during my time at Queens.
-  * He wrote me a heartfelt and deeply intellectual **letter of recommendation**, in which he said I was the best student he had had in his 30 years of teaching and that he expected big things from me. I've kept the letter to this day as a cherished memento of his confidence and guidance.
-  * Deep influence on systems thinking and philosophy
-
-</div>
-</details>
-
----
-
-## What's Coming
-
-We’re building out the rest of the site:
-
-* ✅ **About** ← you are here
-* ⏳ Timeline
-* ⏳ Projects (BabyBlue, Techland, NCTI, AI)
-* ⏳ Press & Mentions
-* ⏳ Essays & Reflections
-* ⏳ Personal (Woodstock, Queens College, etc.)
 
