@@ -112,8 +112,9 @@ permalink: /about/
 
 ---
 
-<details>
 ## Xedex & BabyBlue
+
+<details>
 
 <summary><strong>Click to expand</strong></summary>
 <div markdown="1">
@@ -149,8 +150,9 @@ permalink: /about/
 </div>
 </details>
 
-<details>
 ## Leading Techland Systems
+
+<details>
 
 <summary><strong>Click to expand</strong></summary>
 <div markdown="1">
@@ -192,8 +194,9 @@ After that, I began winding down my involvement with the company. In the **summe
 
 ---
 
-<details>
 ## Innovating in Noise Cancellation
+
+<details>
 
 <summary><strong>Click to expand</strong></summary>
 <div markdown="1">
@@ -237,8 +240,9 @@ After that, I began winding down my involvement with the company. In the **summe
 
 ---
 
-<details>
 ## Before the Machines
+
+<details>
 
 <summary><strong>Click to expand</strong></summary>
 <div markdown="1">
