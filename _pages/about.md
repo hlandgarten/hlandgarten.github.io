@@ -3,7 +3,7 @@
 layout: single
 title: "About"
 permalink: /about/
-------------------
+---
 
 <details>
 <summary><strong>Before the Machines (1951–1968)</strong></summary>
