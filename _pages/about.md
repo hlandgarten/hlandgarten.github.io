@@ -9,6 +9,9 @@ permalink: /about/
 <div markdown="1">
 
 - I was born on **November 23, 1951**.
+- In **1955**, before my uncle moved to Worcester, **Uncle Gerald** lived with his family on the **opposite corner of our block**.
+  - We had one corner; they had the other. I used to **play with my cousins** all the time.
+  - When they moved to **Worcester**, it was **a little upsetting to me** as a child — it changed the dynamic of our close-knit family life.
 - For reasons never fully explained to me, I qualified for a **two-year SP program** in junior high school.
   - As a result, I attended only **7th and 9th grade**, skipping **8th grade entirely**.
 - Combined with my **late-year birthday**, this meant I was **younger than nearly everyone** at my educational level — which is how I ended up starting **college at age 16**.
@@ -21,14 +24,24 @@ permalink: /about/
 - It also pushed me further toward interests like **electronics, music, and computing**.
 - I did take one **college chemistry course**, but struggled to stay interested. I ended up **just reading the textbook**, taking the **final exam**, and scoring a **90**, which **blew the curve** — much to the frustration of my classmates.
 
-- By **age 12**, I had taken up **golf**, which gave me a taste of competition and began drawing me out of my shell., which gave me a taste of competition and began drawing me out of my shell.
+- After we moved to **Douglaston** when I was **12 years old**, my parents gave me **two weeks of golf lessons** from the pro at the **Douglaston Golf Course**, which was right across the street from our new home.
+  - I took to golf immediately, and for the first time in my life, I was able to **beat the school athletes** at a game they cared about.
+  - This marked a **turning point in my confidence**.
+  - In the **summers after school was over**, when I was younger, my mother used to take me to the **beach** with her every morning.
+  - But once I learned to play golf, I would play **every single day**.
+  - I played the **Douglaston Golf Course**, which I could walk to, and I had a **golf pass from the city** that let me play for just **75 cents a round**.
+  - I also learned a very important lesson early on the golf course.
+  - Being a naturally helpful person who understood things deeply, I had the urge to help other players with their golf swings when I saw them struggling.
+  - But I quickly learned that **unsolicited help**, even if well-meaning, often led to **bad reactions**.
+  - That experience taught me an early and lasting rule: **never give advice on a golf course unless someone asks for it**.
+- Around age **15 or 16**, I had a powerful realization — it came either from a dream or my subconscious: that **everything in life is cyclical**.
+  - Everything has a **beginning**, and eventually, an **end** — some things end sooner, some later.
+  - This insight profoundly shaped how I approached life: it made me **adaptable**, more **accepting of change**, and better at **moving on** when things ended.
+  - An extreme example of this is how I responded to being fired from **Xedex** — I immediately pivoted and went on to start **Techland Systems**.
 - I discovered I thrived in **competitive environments** — not just golf, but also **bowling**, and even **archery**, where I won a **trophy at day camp at age 14**.
 - These early competitive outlets shaped me profoundly. They helped me build confidence, learn to focus under pressure, and ultimately gave me the mindset that carried into tech and business.
 - I’ve always had a strong sense of **independence**, even as a child — but my **rebelliousness** didn’t really emerge until I started **college**.
 - Learned to drive from both my **mother and father** in **early 1968**, shortly before I started college.
-- Before my uncle moved to Worcester, **Uncle Gerald** lived with his family on the **opposite corner of our block**.
-  - We had one corner; they had the other. I used to **play with my cousins** all the time.
-  - When they moved to **Worcester**, it was **a little upsetting to me** as a child — it changed the dynamic of our close-knit family life.
 - Joined the **New York Audio Society** and regularly attended their meetings.  
 - At **age 18**, I subscribed to the **New York Philharmonic** and would attend concerts with my brother.  
 - As with all things I’m passionate about, I dove deep — I’ve always been **insatiably curious**, and **audio technology** became a serious pursuit.  
