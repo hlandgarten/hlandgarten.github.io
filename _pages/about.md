@@ -1,5 +1,5 @@
 ---
-layout: sidebar
+layout: single
 title: "About"
 permalink: /about/
 sidebar:
@@ -65,8 +65,6 @@ sidebar:
   - We restarted the car — and realized we were **just one block from the parking area**.
 - It was **Tuesday**, days before the music even started — a **surreal and iconic moment**.
 
-</div>
-</details>
 
 </div>
 </details>
