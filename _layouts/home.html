@@ -11,6 +11,19 @@
       .site-nav .sub-menu { display: none; }
       .site-nav .has-sub.open > .sub-menu { display: block !important; }
     }
+    @media (min-width: 768px) {
+      /* Ensure desktop sub-menus stay clickable */
+      .site-nav .sub-menu {
+        pointer-events: auto;
+        z-index: 1005;
+      }
+    }
+  </style>
+  <style>
+    @media (max-width: 767px) {
+      .site-nav .sub-menu { display: none; }
+      .site-nav .has-sub.open > .sub-menu { display: block !important; }
+    }
   </style>
 </head>
 <body>
