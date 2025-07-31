@@ -6,12 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-  <style>
-    /* Ensure mobile sub-menu expands when .open */
-    .site-nav .has-sub.open > .sub-menu {
-      display: block !important;
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
@@ -26,7 +20,7 @@
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li class="has-sub">
-          <a href=" onclick="if(window.innerWidth<768){event.preventDefault();this.parentElement.classList.toggle('open')}"{{ '/bio/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault();this.parentElement.classList.toggle('open')}">Bio</a>
+          <a href="{{ '/bio/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Bio</a>
           <ul class="sub-menu">
             <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
             <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
@@ -34,7 +28,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/volumes/' | relative_url }}">Volumes</a>
+          <a href="{{ '/volumes/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Volumes</a>
           <ul class="sub-menu">
             <li><a href="{{ '/volumes/volume1/' | relative_url }}">Volume 1</a></li>
             <li><a href="{{ '/volumes/volume2/' | relative_url }}">Volume 2</a></li>
@@ -43,7 +37,7 @@
         </li>
         <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
         <li class="has-sub">
-          <a href="{{ '/work/' | relative_url }}">Work</a>
+          <a href="{{ '/work/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Work</a>
           <ul class="sub-menu">
             <li><a href="{{ '/work/projects/' | relative_url }}">Projects</a></li>
             <li><a href="{{ '/work/case-studies/' | relative_url }}">Case Studies</a></li>
@@ -51,7 +45,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="{{ '/blog/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Blog</a>
           <ul class="sub-menu">
             <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
             <li><a href="{{ '/blog/categories/' | relative_url }}">Categories</a></li>
@@ -73,8 +67,8 @@
 
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
   <script>
-    // Mobile sub-menu toggle fallback
     document.addEventListener('DOMContentLoaded', () => {
+      // Ensure sub-menu toggles fire for all .has-sub links
       document.querySelectorAll('.site-nav .has-sub > a').forEach(link => {
         link.addEventListener('click', e => {
           if (window.innerWidth < 768) {
@@ -87,3 +81,4 @@
   </script>
 </body>
 </html>
+
