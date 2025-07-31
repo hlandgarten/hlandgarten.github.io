@@ -49,4 +49,6 @@ defaults:
 
 # Navigation config must match _data/navigation.yml
 # No need to list it again here unless you're using custom menus elsewhere
-
+include:
+  - assets/css
+  - assets/js
