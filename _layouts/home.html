@@ -5,16 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <style>
+    /* Ensure dropdowns can overflow */
+    .site-header, .site-nav { overflow: visible; }
+
+    /* Base sub-menu styles */
+    .site-nav .sub-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 0.5rem 0;
+      z-index: 1000;
+      white-space: nowrap;
+    }
+
+    /* Show on hover of parent or submenu */
+    .site-nav .has-sub:hover > .sub-menu,
+    .site-nav .sub-menu:hover {
+      display: block !important;
+    }
+
+    /* Submenu item hover */
+    .site-nav .sub-menu li a:hover {
+      background-color: #f0f0f0;
+      color: #007acc;
+    }
+
+    /* Mobile override since submenus are static */
+    @media (max-width: 767px) {
+      .site-nav .sub-menu {
+        position: static;
+        transform: none;
+        left: auto;
+        top: auto;
+        box-shadow: none;
+        padding-left: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="logo"><a href="{{ '/' | relative_url }}">YourLogo</a></div>
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">YourLogo</a>
+    </div>
     <button class="nav-toggle" aria-label="Open navigation">☰</button>
     <div class="nav-backdrop"></div>
     <nav class="site-nav">
       <button class="nav-close" aria-label="Close navigation">✕</button>
       <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         {% assign items = site.data.navigation %}
         {% for item in items %}
         <li class="has-sub">
