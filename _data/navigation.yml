@@ -1,13 +1,46 @@
-main:
-  - title: "About"
-    url: /about/
-  - title: "Timeline"
-    url: /timeline/
-  - title: "Projects"
-    url: /projects/
-  - title: "Press & Mentions"
-    url: /press/
-  - title: "Essays & Reflections"
-    url: /essays/
-  - title: "Personal"
-    url: /personal/
+- title: "Bio"
+  url: "/bio/"
+  submenu:
+    - title: "Overview"
+      url: "/bio/#overview"
+    - title: "Key Influences"
+      url: "/bio/#influences"
+    - title: "Values"
+      url: "/bio/#values"
+
+- title: "Volumes"
+  url: "/volumes/"
+  submenu:
+    - title: "Volume 1"
+      url: "/volumes/volume1/"
+    - title: "Volume 2"
+      url: "/volumes/volume2/"
+    - title: "Volume 3"
+      url: "/volumes/volume3/"
+
+- title: "Timeline"
+  url: "/timeline/"
+
+- title: "Work"
+  url: "/work/"
+  submenu:
+    - title: "Projects"
+      url: "/work/projects/"
+    - title: "Case Studies"
+      url: "/work/case-studies/"
+    - title: "Tools"
+      url: "/work/tools/"
+
+- title: "Blog"
+  url: "/blog/"
+  submenu:
+    - title: "All Posts"
+      url: "/blog/"
+    - title: "Categories"
+      url: "/blog/categories/"
+    - title: "Tags"
+      url: "/blog/tags/"
+
+- title: "Contact"
+  url: "/contact/"
+

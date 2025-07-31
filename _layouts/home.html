@@ -15,40 +15,19 @@
       <button class="nav-close" aria-label="Close navigation">✕</button>
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {% assign items = site.data.navigation %}
+        {% for item in items %}
         <li class="has-sub">
-          <a href="#">Bio</a>
+          <a href="{{ item.url }}" class="parent-link">{{ item.title }}</a>
+          {% if item.submenu %}
           <ul class="sub-menu">
-            <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
-            <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
-            <li><a href="{{ '/bio/#values' | relative_url }}">Values</a></li>
+            {% for sub in item.submenu %}
+            <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+            {% endfor %}
           </ul>
+          {% endif %}
         </li>
-        <li class="has-sub">
-          <a href="#">Volumes</a>
-          <ul class="sub-menu">
-            <li><a href="{{ '/volumes/volume1/' | relative_url }}">Volume 1</a></li>
-            <li><a href="{{ '/volumes/volume2/' | relative_url }}">Volume 2</a></li>
-            <li><a href="{{ '/volumes/volume3/' | relative_url }}">Volume 3</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
-        <li class="has-sub">
-          <a href="#">Work</a>
-          <ul class="sub-menu">
-            <li><a href="{{ '/work/projects/' | relative_url }}">Projects</a></li>
-            <li><a href="{{ '/work/case-studies/' | relative_url }}">Case Studies</a></li>
-            <li><a href="{{ '/work/tools/' | relative_url }}">Tools</a></li>
-          </ul>
-        </li>
-        <li class="has-sub">
-          <a href="#">Blog</a>
-          <ul class="sub-menu">
-            <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
-            <li><a href="{{ '/blog/categories/' | relative_url }}">Categories</a></li>
-            <li><a href="{{ '/blog/tags/' | relative_url }}">Tags</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        {% endfor %}
       </ul>
     </nav>
   </header>
@@ -62,7 +41,6 @@
   </footer>
 
   <script>
-    // Toggle mobile drawer
     const nav = document.querySelector('.site-nav');
     const backdrop = document.querySelector('.nav-backdrop');
     document.querySelector('.nav-toggle').onclick = () => {
@@ -74,14 +52,21 @@
     backdrop.onclick = () => {
       nav.classList.remove('open'); backdrop.classList.remove('open');
     };
-    // Submenu toggle for mobile
-    document.querySelectorAll('.has-sub > a').forEach(link => {
-      link.onclick = e => {
-        if (window.innerWidth < 768) {
+
+    // Handle hover for desktop and click for mobile
+    document.querySelectorAll('.has-sub').forEach(item => {
+      const link = item.querySelector('.parent-link');
+      const submenu = item.querySelector('.sub-menu');
+      // desktop hover
+      item.addEventListener('mouseenter', () => item.classList.add('open'));
+      item.addEventListener('mouseleave', () => item.classList.remove('open'));
+      // mobile click
+      link.addEventListener('click', e => {
+        if (window.innerWidth < 768 && submenu) {
           e.preventDefault();
-          link.parentElement.classList.toggle('open');
+          item.classList.toggle('open');
         }
-      };
+      });
     });
   </script>
 </body>
