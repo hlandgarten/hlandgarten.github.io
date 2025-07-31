@@ -2,7 +2,6 @@
 layout: home
 title: Home
 ---
-<script>window.taglines = {{ site.data.taglines | jsonify }};</script>
 
 <section class="recent-posts">
   <h2>Recent Posts</h2>
