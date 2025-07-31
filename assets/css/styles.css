@@ -73,18 +73,17 @@ body {
 
 .recent-posts li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;    /* center bullet vs. first line */
   margin-bottom: 1.5rem;
 }
 
 .recent-posts li::before {
   content: "●";
   margin-right: 0.5rem;
-  margin-top: 0.25em;
+  /* remove any margin-top or absolute positioning */
   color: #007acc;
-  flex: none;
+  flex: none;             /* keep the bullet from stretching */
 }
-
 /* Title & excerpt styling */
 .recent-posts li a {
   font-weight: bold;
@@ -98,6 +97,12 @@ body {
   font-size: 0.875rem;
 }
 
+.recent-posts li small {
+  display: block;
+  margin-top: 0.25rem;
+  color: #555;
+  font-size: 0.875rem;
+}
 
 /* Footer Padding */
 .site-footer {
