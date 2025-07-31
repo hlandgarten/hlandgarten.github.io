@@ -4,12 +4,6 @@ title: Home
 ---
 <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
 
-<section class="hero">
-  <h1 class="hero-title"></h1>
-  <p class="hero-subtitle"></p>
-  <a href="#timeline" class="btn">Explore My Journey</a>
-</section>
-
 <section class="recent-posts">
   <h2>Recent Posts</h2>
   <ul>
