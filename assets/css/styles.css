@@ -64,52 +64,38 @@ body {
   text-align: center;
 }
 
-/* Recent Posts */
-.recent-posts {
-  padding: 1.5rem;
-}
-.recent-posts h2 {
-  margin-bottom: 1rem;
-  font-size: 1.75rem;
-  text-align: center;
-}
+/* Recent Posts – single marker via flex, no absolute positioning */
 .recent-posts ul {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 1rem;
+  padding-left: 0;
 }
+
 .recent-posts li {
+  display: flex;
+  align-items: flex-start;
   margin-bottom: 1.5rem;
-  position: relative;
 }
+
 .recent-posts li::before {
   content: "●";
-  position: absolute;
-  left: -1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.25em;
   color: #007acc;
+  flex: none;
 }
+
+/* Title & excerpt styling */
 .recent-posts li a {
   font-weight: bold;
   text-decoration: none;
 }
+
 .recent-posts li small {
   display: block;
   color: #555;
   margin-top: 0.25rem;
   font-size: 0.875rem;
-}
-.recent-posts ul {
-  list-style: none;
-  margin: 0;
-  padding-left: 1.5rem; /* indent for your custom marker */
-}
-
-/* your existing dot */
-.recent-posts li::before {
-  content: "●";
-  position: absolute;
-  left: 0;
-  color: #007acc;
 }
 
 
