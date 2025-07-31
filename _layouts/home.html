@@ -16,7 +16,7 @@
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li class="has-sub">
-          <a href="{{ '/bio/' | relative_url }}">Bio</a>
+          <a href="#">Bio</a>
           <ul class="sub-menu">
             <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
             <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
@@ -24,7 +24,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/volumes/' | relative_url }}">Volumes</a>
+          <a href="#">Volumes</a>
           <ul class="sub-menu">
             <li><a href="{{ '/volumes/volume1/' | relative_url }}">Volume 1</a></li>
             <li><a href="{{ '/volumes/volume2/' | relative_url }}">Volume 2</a></li>
@@ -33,7 +33,7 @@
         </li>
         <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
         <li class="has-sub">
-          <a href="{{ '/work/' | relative_url }}">Work</a>
+          <a href="#">Work</a>
           <ul class="sub-menu">
             <li><a href="{{ '/work/projects/' | relative_url }}">Projects</a></li>
             <li><a href="{{ '/work/case-studies/' | relative_url }}">Case Studies</a></li>
@@ -41,7 +41,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a href="#">Blog</a>
           <ul class="sub-menu">
             <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
             <li><a href="{{ '/blog/categories/' | relative_url }}">Categories</a></li>
@@ -61,22 +61,27 @@
     &copy; {{ site.time | date: "%Y" }} Harris Landgarten. All rights reserved.
   </footer>
 
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      document.querySelectorAll('.site-nav .has-sub').forEach(item => {
-        // Desktop: hover to add open class
-        item.addEventListener('mouseenter', () => item.classList.add('open'));
-        item.addEventListener('mouseleave', () => item.classList.remove('open'));
-        // Mobile: click to toggle
-        const link = item.querySelector('a');
-        link.addEventListener('click', e => {
-          if (window.innerWidth < 768) {
-            e.preventDefault();
-            item.classList.toggle('open');
-          }
-        });
-      });
+    // Toggle mobile drawer
+    const nav = document.querySelector('.site-nav');
+    const backdrop = document.querySelector('.nav-backdrop');
+    document.querySelector('.nav-toggle').onclick = () => {
+      nav.classList.add('open'); backdrop.classList.add('open');
+    };
+    document.querySelector('.nav-close').onclick = () => {
+      nav.classList.remove('open'); backdrop.classList.remove('open');
+    };
+    backdrop.onclick = () => {
+      nav.classList.remove('open'); backdrop.classList.remove('open');
+    };
+    // Submenu toggle for mobile
+    document.querySelectorAll('.has-sub > a').forEach(link => {
+      link.onclick = e => {
+        if (window.innerWidth < 768) {
+          e.preventDefault();
+          link.parentElement.classList.toggle('open');
+        }
+      };
     });
   </script>
 </body>
