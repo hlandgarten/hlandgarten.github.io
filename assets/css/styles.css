@@ -77,23 +77,18 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.recent-posts li::before {
-  content: "●";
-  margin-right: 0.5rem;
-  /* remove any margin-top or absolute positioning */
-  color: #007acc;
-  flex: none;             /* keep the bullet from stretching */
+.recent-posts li {
+  margin-bottom: 1.5rem;
 }
-/* Title & excerpt styling */
+
 .recent-posts li a {
   font-weight: bold;
   text-decoration: none;
 }
 
-.recent-posts li small {
-  display: block;
+.recent-posts .excerpt {
+  margin: 0.25rem 0 0;
   color: #555;
-  margin-top: 0.25rem;
   font-size: 0.875rem;
 }
 
