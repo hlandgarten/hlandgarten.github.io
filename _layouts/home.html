@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <style>
+    @media (max-width: 767px) {
+      .site-nav .sub-menu { display: none; }
+      .site-nav .has-sub.open > .sub-menu { display: block !important; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
