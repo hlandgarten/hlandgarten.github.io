@@ -95,15 +95,40 @@ body {
 }
 
 /* Responsive (Tablet & Up) */
+/* Mobile-first styles above… */
+
 @media (min-width: 768px) {
-  .features {
-    flex-direction: row;
-  }
+  /* Hero scaling */
   .hero {
     padding: 4rem;
   }
   .hero h1 {
     font-size: 2.5rem;
+  }
+
+  /* Feature blocks go side-by-side */
+  .features {
+    flex-direction: row;
+  }
+
+  /* Desktop tweaks for Recent Posts */
+  .recent-posts ul {
+    /* Still use disc inside, but add a little more indent */
+    list-style: disc inside;
+    padding-left: 2rem;
+  }
+  .recent-posts li {
+    margin-bottom: 2rem;
+  }
+  .recent-posts li a {
+    /* keep inline so bullet + title share the same row */
+    display: inline;
+    font-size: 1.125rem;   /* slightly larger title on desktop */
+  }
+  .recent-posts li .excerpt {
+    /* indent under the text, not under the bullet */
+    margin-left: 2rem;
+    font-size: 1rem;       /* a touch larger for readability */
   }
 }
 
