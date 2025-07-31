@@ -15,6 +15,7 @@ permalink: /
 </section>
 
 <section class="recent-posts">
+  <div markdown=1>
   ## Recent Posts
   {% if site.posts.size > 0 %}
     <ul>
@@ -28,5 +29,6 @@ permalink: /
   {% else %}
     <p>No blog posts yet. Stay tuned!</p>
   {% endif %}
+  </div>
 </section>
 
