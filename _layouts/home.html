@@ -2,46 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- Mobile-first viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-  <style>
-    /* Mobile sub-menu */
-    @media (max-width: 767px) {
-      .site-nav .sub-menu { display: none; }
-      .site-nav .has-sub.open > .sub-menu { display: block !important; }
-    }
-    /* Desktop dropdown positioning */
-    @media (min-width: 768px) {
-      .site-nav .sub-menu { display: none; position: absolute; top: 100%; left: 0; background: white; padding: 0.5rem 0; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
-      .site-nav .has-sub { position: relative; }
-      .site-nav .has-sub:hover > .sub-menu { display: block; }
-      .site-nav .sub-menu li { margin: 0; }
-      .site-nav .sub-menu a { padding: 0.5rem 1rem; display: block; }
-    }
-  </style>
-  <style>
-    @media (max-width: 767px) {
-      .site-nav .sub-menu { display: none; }
-      .site-nav .has-sub.open > .sub-menu { display: block !important; }
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="logo">
-      <a href="{{ '/' | relative_url }}">YourLogo</a>
-    </div>
+    <div class="logo"><a href="{{ '/' | relative_url }}">YourLogo</a></div>
     <button class="nav-toggle" aria-label="Open navigation">☰</button>
     <div class="nav-backdrop"></div>
-
     <nav class="site-nav">
       <button class="nav-close" aria-label="Close navigation">✕</button>
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li class="has-sub">
-          <a href="{{ '/bio/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Bio</a>
+          <a href="{{ '/bio/' | relative_url }}">Bio</a>
           <ul class="sub-menu">
             <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
             <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
@@ -49,7 +24,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/volumes/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Volumes</a>
+          <a href="{{ '/volumes/' | relative_url }}">Volumes</a>
           <ul class="sub-menu">
             <li><a href="{{ '/volumes/volume1/' | relative_url }}">Volume 1</a></li>
             <li><a href="{{ '/volumes/volume2/' | relative_url }}">Volume 2</a></li>
@@ -58,7 +33,7 @@
         </li>
         <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
         <li class="has-sub">
-          <a href="{{ '/work/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Work</a>
+          <a href="{{ '/work/' | relative_url }}">Work</a>
           <ul class="sub-menu">
             <li><a href="{{ '/work/projects/' | relative_url }}">Projects</a></li>
             <li><a href="{{ '/work/case-studies/' | relative_url }}">Case Studies</a></li>
@@ -66,7 +41,7 @@
           </ul>
         </li>
         <li class="has-sub">
-          <a href="{{ '/blog/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault(); this.parentElement.classList.toggle('open');}">Blog</a>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
           <ul class="sub-menu">
             <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
             <li><a href="{{ '/blog/categories/' | relative_url }}">Categories</a></li>
@@ -87,19 +62,6 @@
   </footer>
 
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      // Ensure sub-menu toggles fire for all .has-sub links
-      document.querySelectorAll('.site-nav .has-sub > a').forEach(link => {
-        link.addEventListener('click', e => {
-          if (window.innerWidth < 768) {
-            e.preventDefault();
-            link.parentElement.classList.toggle('open');
-          }
-        });
-      });
-    });
-  </script>
 </body>
 </html>
 
