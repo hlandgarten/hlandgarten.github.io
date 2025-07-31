@@ -14,16 +14,19 @@ permalink: /
      Explore my work in market theory, cutting-edge AI modeling, and practical product design.</p>
 </section>
 
-<section class="recent-posts" markdown="1">
-## Recent Posts
-
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit:5 %}
-- [{{ post.title }}]({{ post.url | relative_url }})  
-  {{ post.excerpt | strip_html | truncate: 160 }}
-{% endfor %}
-{% else %}
-_No blog posts yet. Stay tuned!_
-{% endif %}
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  {% if site.posts.size > 0 %}
+    <ul>
+      {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
+          <small>{{ post.excerpt | strip_html | truncate: 160 }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>No blog posts yet. Stay tuned!</p>
+  {% endif %}
 </section>
 

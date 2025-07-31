@@ -98,6 +98,20 @@ body {
   margin-top: 0.25rem;
   font-size: 0.875rem;
 }
+.recent-posts ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 1.5rem; /* indent for your custom marker */
+}
+
+/* your existing dot */
+.recent-posts li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: #007acc;
+}
+
 
 /* Footer Padding */
 .site-footer {
