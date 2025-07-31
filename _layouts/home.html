@@ -7,15 +7,29 @@
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   <style>
     /* Ensure dropdowns can overflow */
-    .site-header, .site-nav { overflow: visible; }
+    .site-header,
+    .site-nav {
+      overflow: visible;
+    }
+
+    /* Nav list layout */
+    .site-nav > ul {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .site-nav li a {
+      display: block;
+      padding: 0.5rem 0;
+    }
 
     /* Base sub-menu styles */
     .site-nav .sub-menu {
       display: none;
       position: absolute;
       top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 0;
+      min-width: 100%;
       background: white;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 0.5rem 0;
@@ -29,7 +43,7 @@
       display: block !important;
     }
 
-    /* Submenu item hover */
+    /* Sub-menu item hover */
     .site-nav .sub-menu li a:hover {
       background-color: #f0f0f0;
       color: #007acc;
@@ -45,14 +59,16 @@
         box-shadow: none;
         padding-left: 1rem;
       }
+      .site-nav > ul {
+        flex-direction: column;
+        gap: 0;
+      }
     }
   </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="logo">
-      <a href="{{ '/' | relative_url }}">YourLogo</a>
-    </div>
+    <div class="logo"><a href="{{ '/' | relative_url }}">YourLogo</a></div>
     <button class="nav-toggle" aria-label="Open navigation">☰</button>
     <div class="nav-backdrop"></div>
     <nav class="site-nav">
