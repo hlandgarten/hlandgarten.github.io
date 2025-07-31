@@ -1,81 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  …
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   <style>
-    /* Header flex‐container so nav and logo line up */
+    /* Header + nav layout */
     .site-header {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 1rem;
-      background: #f8f8f8;
-    }
-
-    .logo a {
-      font-size: 1.25rem;
-      font-weight: bold;
-      text-decoration: none;
-      color: inherit;
-    }
-
-    /* Nav styling */
-    .site-nav {
+      background: #fff;
       position: relative;
+      z-index: 100;
     }
+    .logo a { font-size: 1.25rem; font-weight: bold; text-decoration: none; color: #000; }
+
+    /* Primary nav */
     .site-nav > ul {
       display: flex;
-      gap: 1.5rem;
+      gap: 2rem;
       margin: 0;
       padding: 0;
       list-style: none;
     }
-    .site-nav li {
-      position: relative;
-    }
+    .site-nav li { position: relative; }
     .site-nav a {
+      color: #000;
       text-decoration: none;
-      padding: 0.5rem;
+      padding: 0.5rem 0;
       display: block;
-      color: inherit;
     }
 
-    /* Dropdown (desktop) */
+    /* Submenu (desktop) */
     .site-nav .sub-menu {
       display: none;
       position: absolute;
       top: 100%;
       left: 0;
       min-width: 100%;
-      background: white;
+      background: #fff;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      z-index: 1000;
+      padding: 0.5rem 0;
+      z-index: 200;
+      white-space: nowrap;
     }
+    /* Keep it open on hover */
     .site-nav .has-sub:hover > .sub-menu,
     .site-nav .sub-menu:hover {
       display: block;
     }
+    /* Highlight submenu items */
+    .site-nav .sub-menu li a:hover {
+      background: #f0f0f0;
+      color: #007acc;
+    }
 
-    /* Mobile override */
+    /* Ensure overflow for dropdowns */
+    .site-header, .site-nav { overflow: visible; }
+
+    /* Mobile: stack nav */
     @media (max-width: 767px) {
-      .site-header {
-        flex-direction: column;
-      }
-      .site-nav > ul {
-        flex-direction: column;
+      .site-header { flex-direction: column; align-items: flex-start; }
+      .site-nav > ul { flex-direction: column; width: 100%; }
+      .site-nav .sub-menu {
+        position: static;
+        box-shadow: none;
+        padding-left: 1rem;
       }
     }
   </style>
 </head>
 <body>
   <header class="site-header">
-    <div class="logo"><a href="{{ '/' | relative_url }}">YourLogo</a></div>
-
+    <div class="logo">
+      <a href="{{ '/' | relative_url }}">YourLogo</a>
+    </div>
     <nav class="site-nav">
       <ul>
-        <li class="has-sub">
-          <a href="{{ '/' | relative_url }}">Home</a>
-        </li>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         {% assign items = site.data.navigation %}
         {% for item in items %}
         <li class="has-sub">
@@ -92,11 +97,6 @@
       </ul>
     </nav>
   </header>
-
-  <!-- hero + content… -->
-
-</body>
-</html>
 
   <!-- Expose taglines to JS -->
   <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
