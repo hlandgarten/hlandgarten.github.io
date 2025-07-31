@@ -5,55 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-  <style>
-    /* Ensure header can show overflow */
-    .site-header { overflow: visible; }
-
-    /* Submenu default hidden */
-      .site-nav .sub-menu {
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%);
-        margin-top: 2px;
-        background: white;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        z-index: 1000;
-        pointer-events: auto;
-      }
-    /* Show on open or hover */
-    .site-nav .has-sub.open > .sub-menu,
-    .site-nav .has-sub:hover > .sub-menu {
-      display: block !important;
-    }
-    /* Submenu item hover highlight */
-    .site-nav .sub-menu li a:hover {
-      background-color: #f0f0f0;
-      color: #007acc;
-    }
-    /* Desktop positioning */
-    @media (min-width: 768px) {
-      .site-nav .has-sub {
-        position: relative;
-      }
-      .site-nav .sub-menu {
-        position: absolute;
-        top: 100%; left: 0;
-        margin-top: 2px;
-        background: white;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        z-index: 1000;
-        pointer-events: auto;
-      }
-    }
-    /* Mobile styles */
-    @media (max-width: 767px) {
-      .site-nav .sub-menu {
-        position: static;
-        padding-left: 1rem;
-      }
-    }
-  </style>
 </head>
 <body>
   <header class="site-header">
@@ -81,7 +32,16 @@
     </nav>
   </header>
 
+  <!-- Expose taglines to JS -->
+  <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
+
   <main class="site-content">
+    <section class="hero">
+      <h1 class="hero-title"></h1>
+      <p class="hero-subtitle"></p>
+      <a href="#timeline" class="btn">Explore My Journey</a>
+    </section>
+
     {{ content }}
   </main>
 
@@ -89,28 +49,7 @@
     &copy; {{ site.time | date: "%Y" }} Harris Landgarten. All rights reserved.
   </footer>
 
-  <script>
-    const nav = document.querySelector('.site-nav');
-    const backdrop = document.querySelector('.nav-backdrop');
-    document.querySelector('.nav-toggle').onclick = () => {
-      nav.classList.add('open'); backdrop.classList.add('open');
-    };
-    document.querySelector('.nav-close').onclick = () => {
-      nav.classList.remove('open'); backdrop.classList.remove('open');
-    };
-    backdrop.onclick = () => {
-      nav.classList.remove('open'); backdrop.classList.remove('open');
-    };
-    document.querySelectorAll('.has-sub').forEach(item => {
-      const link = item.querySelector('.parent-link');
-      link.addEventListener('click', e => {
-        if (window.innerWidth < 768) {
-          e.preventDefault();
-          item.classList.toggle('open');
-        }
-      });
-    });
-  </script>
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
 
