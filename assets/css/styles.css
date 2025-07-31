@@ -14,22 +14,94 @@ body {
   text-align: center;
 }
 
+/* Logo */
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: inherit;
+}
+
 /* Site Navigation */
+/* Hamburger toggle (mobile) */
 .nav-toggle {
+  background: none;
+  border: none;
   font-size: 1.5rem;
 }
-.site-header .site-nav {
+
+/* Backdrop overlay */
+.nav-backdrop {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 1002;
+}
+.nav-backdrop.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Nav drawer (mobile) */
+.site-nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 80%;
+  max-width: 300px;
+  height: 100%;
+  background: white;
+  padding: 2rem 1rem;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1003;
   display: none;
 }
-.site-header .site-nav.open {
+.site-nav.open {
+  display: block;
+  transform: translateX(0);
+}
+
+/* Close button inside nav */
+.nav-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+/* Top-level nav list */
+.site-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.site-nav li + li {
+  margin-top: 1rem;
+}
+.site-nav a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: inherit;
   display: block;
 }
-.site-header .site-nav a {
-  display: block;
-  padding: 0.75rem 1rem;
-  margin: 0.5rem 0;
-  text-decoration: none;
-  color: inherit;
+
+/* Sub-menus (hidden by default) */
+.site-nav .sub-menu {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0 1rem;
+}
+.site-nav .has-sub > a::after {
+  content: "▾";
+  margin-left: 0.25rem;
+  font-size: 0.8em;
 }
 
 /* Hero Section */
@@ -64,29 +136,34 @@ body {
   text-align: center;
 }
 
-/* Recent Posts – default bullets, title + excerpt stacked */
+/* Recent Posts */
+.recent-posts {
+  padding: 1.5rem;
+}
+.recent-posts h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
 .recent-posts ul {
   list-style: disc inside;
   margin: 0;
   padding-left: 1rem;
 }
-
 .recent-posts li {
   margin-bottom: 1.5rem;
 }
-
 .recent-posts li a {
-  display: block;            /* title on its own line */
+  display: inline;
   font-weight: bold;
-  margin-bottom: 0.25rem;
   text-decoration: none;
 }
-
 .recent-posts li .excerpt {
-  display: block;            /* excerpt below title */
-  margin-left: 1.5rem;       /* align under the text, not the bullet */
+  display: block;
+  margin: 0.25rem 0 0 1.5rem;
   color: #555;
   font-size: 0.875rem;
+  line-height: 1.4;
 }
 
 /* Footer Padding */
@@ -94,10 +171,63 @@ body {
   padding: 2rem 1rem;
 }
 
-/* Responsive (Tablet & Up) */
-/* Mobile-first styles above… */
-
+/* === Desktop Overrides (min-width: 768px) === */
 @media (min-width: 768px) {
+  /* Show header nav inline */
+  .nav-toggle,
+  .nav-close,
+  .nav-backdrop {
+    display: none;
+  }
+  .site-nav {
+    position: static;
+    transform: none !important;
+    display: block;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+  }
+  .site-nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+  .site-nav li {
+    margin: 0;
+  }
+  .site-nav a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /* Dropdowns on hover */
+  .site-nav .has-sub {
+    position: relative;
+  }
+  .site-nav .has-sub:hover .sub-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
+    z-index: 1004;
+  }
+  .site-nav .sub-menu li {
+    margin: 0;
+  }
+  .site-nav .sub-menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Features side-by-side */
+  .features {
+    flex-direction: row;
+  }
+
   /* Hero scaling */
   .hero {
     padding: 4rem;
@@ -106,29 +236,19 @@ body {
     font-size: 2.5rem;
   }
 
-  /* Feature blocks go side-by-side */
-  .features {
-    flex-direction: row;
-  }
-
-  /* Desktop tweaks for Recent Posts */
+  /* Recent Posts desktop tweaks */
   .recent-posts ul {
-    /* Still use disc inside, but add a little more indent */
-    list-style: disc inside;
     padding-left: 2rem;
   }
   .recent-posts li {
     margin-bottom: 2rem;
   }
   .recent-posts li a {
-    /* keep inline so bullet + title share the same row */
-    display: inline;
-    font-size: 1.125rem;   /* slightly larger title on desktop */
+    font-size: 1.125rem;
   }
   .recent-posts li .excerpt {
-    /* indent under the text, not under the bullet */
     margin-left: 2rem;
-    font-size: 1rem;       /* a touch larger for readability */
+    font-size: 1rem;
   }
 }
 

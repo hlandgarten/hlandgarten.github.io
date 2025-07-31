@@ -8,27 +8,59 @@
   <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }} ">
 </head>
 <body>
-  <header class="site-header">
-    <button class="nav-toggle" aria-label="Open navigation">☰</button>
-    <div class="logo">YourLogo</div>
-    <nav class="site-nav">
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<header class="site-header">
+  <div class="logo">
+    <a href="{{ '/' | relative_url }}">YourLogo</a>
+  </div>
+  <button class="nav-toggle" aria-label="Open navigation">☰</button>
+  <div class="nav-backdrop"></div>
 
-  <main>
-     {{ content }}
-  </main>
+  <nav class="site-nav">
+    <button class="nav-close" aria-label="Close navigation">✕</button>
+    <ul>
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
 
-  <footer class="site-footer">
-    <p>© 2025 Your Name. All rights reserved.</p>
-    <div class="social">
-      <!-- social icons/links -->
-    </div>
-  </footer>
+      <li class="has-sub">
+        <a href="{{ '/bio/' | relative_url }}">Bio</a>
+        <ul class="sub-menu">
+          <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
+          <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
+          <li><a href="{{ '/bio/#values' | relative_url }}">Values</a></li>
+        </ul>
+      </li>
 
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-</body>
-</html>
+      <li class="has-sub">
+        <a href="{{ '/volumes/' | relative_url }}">Volumes</a>
+        <ul class="sub-menu">
+          <li><a href="{{ '/volumes/volume1/'  | relative_url }}">Volume 1</a></li>
+          <li><a href="{{ '/volumes/volume2/'  | relative_url }}">Volume 2</a></li>
+          <li><a href="{{ '/volumes/volume3/'  | relative_url }}">Volume 3</a></li>
+          <!-- add more as needed -->
+        </ul>
+      </li>
+
+      <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
+
+      <li class="has-sub">
+        <a href="{{ '/work/' | relative_url }}">Work</a>
+        <ul class="sub-menu">
+          <li><a href="{{ '/work/projects/'    | relative_url }}">Projects</a></li>
+          <li><a href="{{ '/work/case-studies/'| relative_url }}">Case Studies</a></li>
+          <li><a href="{{ '/work/tools/'       | relative_url }}">Tools</a></li>
+        </ul>
+      </li>
+
+      <li class="has-sub">
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
+        <ul class="sub-menu">
+          <li><a href="{{ '/blog/'             | relative_url }}">All Posts</a></li>
+          <li><a href="{{ '/blog/categories/'  | relative_url }}">Categories</a></li>
+          <li><a href="{{ '/blog/tags/'        | relative_url }}">Tags</a></li>
+        </ul>
+      </li>
+
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  
