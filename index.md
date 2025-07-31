@@ -18,8 +18,10 @@ permalink: /
 ## Recent Posts
 
 {% if site.posts.size > 0 %}
-- {% for post in site.posts limit:5 %}[{{ post.title }}]({{ post.url | relative_url }})  
-  {{ post.excerpt | strip_html | truncate: 160 }}{% endfor %}
+{% for post in site.posts limit:5 %}
+- [{{ post.title }}]({{ post.url | relative_url }})  
+  {{ post.excerpt | strip_html | truncate: 160 }}
+{% endfor %}
 {% else %}
 _No blog posts yet. Stay tuned!_
 {% endif %}
