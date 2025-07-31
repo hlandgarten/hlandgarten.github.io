@@ -62,6 +62,23 @@
   </footer>
 
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.site-nav .has-sub').forEach(item => {
+        // Desktop: hover to add open class
+        item.addEventListener('mouseenter', () => item.classList.add('open'));
+        item.addEventListener('mouseleave', () => item.classList.remove('open'));
+        // Mobile: click to toggle
+        const link = item.querySelector('a');
+        link.addEventListener('click', e => {
+          if (window.innerWidth < 768) {
+            e.preventDefault();
+            item.classList.toggle('open');
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
 
