@@ -26,7 +26,7 @@
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li class="has-sub">
-          <a href="{{ '/bio/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault();this.parentElement.classList.toggle('open')}">Bio</a>/a>
+          <a href=" onclick="if(window.innerWidth<768){event.preventDefault();this.parentElement.classList.toggle('open')}"{{ '/bio/' | relative_url }}" onclick="if(window.innerWidth<768){event.preventDefault();this.parentElement.classList.toggle('open')}">Bio</a>
           <ul class="sub-menu">
             <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
             <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
