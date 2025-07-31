@@ -64,17 +64,11 @@ body {
   text-align: center;
 }
 
-/* Recent Posts – single marker via flex, no absolute positioning */
+/* Recent Posts – default bullets, title + excerpt stacked */
 .recent-posts ul {
-  list-style: none;
+  list-style: disc inside;
   margin: 0;
-  padding-left: 0;
-}
-
-.recent-posts li {
-  display: flex;
-  align-items: center;    /* center bullet vs. first line */
-  margin-bottom: 1.5rem;
+  padding-left: 1rem;
 }
 
 .recent-posts li {
@@ -82,19 +76,15 @@ body {
 }
 
 .recent-posts li a {
+  display: block;            /* title on its own line */
   font-weight: bold;
+  margin-bottom: 0.25rem;
   text-decoration: none;
 }
 
-.recent-posts .excerpt {
-  margin: 0.25rem 0 0;
-  color: #555;
-  font-size: 0.875rem;
-}
-
-.recent-posts li small {
-  display: block;
-  margin-top: 0.25rem;
+.recent-posts li .excerpt {
+  display: block;            /* excerpt below title */
+  margin-left: 1.5rem;       /* align under the text, not the bullet */
   color: #555;
   font-size: 0.875rem;
 }
