@@ -6,20 +6,31 @@
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
   <style>
-    /* Desktop: keep submenu open when hovering parent or submenu */
+    /* Submenu default hidden */
+    .site-nav .sub-menu { display: none; }
+    /* Show on open or hover */
+    .site-nav .has-sub.open > .sub-menu,
+    .site-nav .has-sub:hover > .sub-menu {
+      display: block !important;
+    }
+    /* Desktop positioning */
     @media (min-width: 768px) {
-      .site-nav .has-sub:hover > .sub-menu,
-      .site-nav .has-sub .sub-menu:hover {
-        display: block;
+      .site-nav .has-sub {
+        position: relative;
       }
       .site-nav .sub-menu {
         position: absolute;
-        top: 100%;
-        left: 0;
-        display: none;
+        top: 100%; left: 0;
         background: white;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         z-index: 1000;
+      }
+    }
+    /* Mobile styles */
+    @media (max-width: 767px) {
+      .site-nav .sub-menu {
+        position: static;
+        padding-left: 1rem;
       }
     }
   </style>
@@ -70,17 +81,10 @@
     backdrop.onclick = () => {
       nav.classList.remove('open'); backdrop.classList.remove('open');
     };
-
-    // Handle hover for desktop and click for mobile
     document.querySelectorAll('.has-sub').forEach(item => {
       const link = item.querySelector('.parent-link');
-      const submenu = item.querySelector('.sub-menu');
-      // desktop hover
-      item.addEventListener('mouseenter', () => item.classList.add('open'));
-      item.addEventListener('mouseleave', () => item.classList.remove('open'));
-      // mobile click
       link.addEventListener('click', e => {
-        if (window.innerWidth < 768 && submenu) {
+        if (window.innerWidth < 768) {
           e.preventDefault();
           item.classList.toggle('open');
         }
@@ -89,4 +93,3 @@
   </script>
 </body>
 </html>
-
