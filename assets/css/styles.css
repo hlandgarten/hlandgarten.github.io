@@ -1,0 +1,192 @@
+/* Reset & base */
+body, ul { margin: 0; padding: 0; }
+ul { list-style: none; }
+a { text-decoration: none; color: inherit; }
+
+/* Header + logo */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  position: relative;
+  z-index: 1000;
+}
+.logo a {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Hamburger toggle (mobile) */
+.nav-toggle {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  z-index: 1001;
+}
+@media (min-width: 768px) {
+  .nav-toggle { display: none; }
+}
+
+/* Backdrop */
+.nav-backdrop {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.3);
+  display: none;
+  z-index: 1000;
+}
+.nav-backdrop.open { display: block; }
+
+/* Nav drawer / desktop nav */
+.site-nav {
+  position: fixed; top: 0; right: -260px;
+  width: 260px; height: 100%;
+  background: #fff;
+  box-shadow: -2px 0 6px rgba(0,0,0,0.1);
+  transition: right 0.3s ease;
+  padding-top: 3rem;
+  z-index: 1001;
+}
+.site-nav.open { right: 0; }
+@media (min-width: 768px) {
+  .site-nav {
+    position: static;
+    width: auto; height: auto;
+    box-shadow: none; padding: 0;
+    display: block;
+  }
+}
+
+/* Menu list */
+.site-nav > ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  gap: 0;
+}
+@media (min-width: 768px) {
+  .site-nav > ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+  }
+}
+.site-nav li { position: relative; }
+.site-nav a {
+  display: block;
+  padding: 0.75rem 0;
+  color: #000;
+}
+
+/* Dropdowns (desktop) */
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%; left: 0;
+  min-width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 0.5rem 0;
+  z-index: 1002;
+  white-space: nowrap;
+}
+.has-sub:hover > .sub-menu,
+.sub-menu:hover { display: block; }
+.sub-menu li a:hover {
+  background: #f0f0f0;
+  color: #007acc;
+}
+
+/* Mobile inline submenus */
+@media (max-width: 767px) {
+  .sub-menu {
+    position: static;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+}
+
+/* Hero & button styling */
+.hero {
+  width: 100%;
+  background: #007acc;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.hero-title { font-size: 2.5rem; margin-bottom: 1rem; }
+.hero-subtitle { font-size: 1.25rem; margin-bottom: 2rem; }
+.btn {
+  background: #fff;
+  color: #007acc;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #e0e0e0;
+}
+/* Recent Posts */
+.recent-posts {
+  padding: 1.5rem;
+}
+.recent-posts h2 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+.recent-posts ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.recent-posts li {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+.recent-posts li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  color: #007acc;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.recent-posts li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+.recent-posts li .excerpt {
+  display: block;
+  color: #555;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+/* Active nav link underline & bold */
+.site-nav li.active > a {
+  font-weight: bold;
+  border-bottom: 2px solid #007acc;
+}
+
+/* Also keep parent open if active submenu */
+.site-nav li.active > .sub-menu {
+  display: block !important;
+}
+.site-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}
