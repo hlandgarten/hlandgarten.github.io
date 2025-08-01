@@ -1,13 +1,10 @@
 title: "Harris Landgarten"
 description: "AI, Market Theory, and Innovation"
 url: "https://www.harrislandgarten.com"
-baseurl: ""  # Leave this empty for root
+baseurl: ""
 email: "harrisl@deeplearntech.com"
 
-# Theme and plugins
-remote_theme: "mmistakes/minimal-mistakes"
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -17,38 +14,14 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Enable _pages folder as custom collection
 collections:
   pages:
     output: true
     permalink: /:name/
-# Defaults for layouts and sidebar nav
+
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      sidebar:
-        nav: "main"
-
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      sidebar:
-        nav: "main"
-
-# Navigation config must match _data/navigation.yml
-# No need to list it again here unless you're using custom menus elsewhere
+  # …your existing defaults…
 include:
   - assets/css
   - assets/js
+
