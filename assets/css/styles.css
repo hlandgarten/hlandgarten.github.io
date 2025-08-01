@@ -228,4 +228,43 @@ footer.site-footer {
     z-index: 5;
   }
 }
+/* -----------------------------------------------------------------------------
+   LAYOUT FIX - Add this at the very end of your CSS file
+   ----------------------------------------------------------------------------- */
+
+/* Force vertical stacking with highest specificity */
+html, body {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+body * {
+  box-sizing: border-box !important;
+}
+
+/* Force each major section to stack vertically */
+body > header,
+body > .hero,
+body > main,
+body > footer {
+  display: block !important;
+  width: 100% !important;
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+}
+
+/* Keep header flex only for internal layout */
+header.site-header {
+  display: flex !important;
+  flex-direction: row !important;
+  width: 100% !important;
+}
+
+/* Ensure hero is full width block */
+.hero {
+  display: block !important;
+  width: 100% !important;
+}
 
