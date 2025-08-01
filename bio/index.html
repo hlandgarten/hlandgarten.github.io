@@ -1,3 +1,4 @@
+<!-- _layouts/home.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +11,10 @@
 
   <!-- HEADER + NAV -->
   <header class="site-header">
-    <div class="logo">
-      <a href="/">YourLogo</a>
-    </div>
-    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-    <nav class="site-nav" role="navigation" aria-label="Main menu">
+    <div class="logo"><a href="/">YourLogo</a></div>
+    <nav class="site-nav" role="navigation">
       <ul>
-        <li class="">
-          <a href="/">Home</a>
-        </li>
+        <li class=""><a href="/">Home</a></li>
         
         <li class="has-sub active"
             aria-haspopup="true" aria-expanded="false">
@@ -122,17 +118,18 @@
         
       </ul>
     </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     <div class="nav-backdrop"></div>
   </header>
 
-  <!-- FULL-WIDTH HERO -->
+  <!-- HERO -->
   <section class="hero">
     <h1 class="hero-title"></h1>
     <p class="hero-subtitle"></p>
     <a href="#timeline" class="btn">Explore My Journey</a>
   </section>
 
-  <!-- SINGLE-COLUMN CONTENT -->
+  <!-- CONTENT -->
   <main class="site-content">
     <h2 id="overview">Overview</h2>
 
@@ -162,7 +159,6 @@
     &copy; 2025 Harris Landgarten. All rights reserved.
   </footer>
 
-  <!-- SCRIPTS -->
   <script>window.taglines = [{"title":"Seven Decades of Tech in My Rear‑View","subtitle":"From black-and-white TV to the AI frontier..."},{"title":"My Life, One Tech Milestone at a Time","subtitle":"Born in ’51..."},{"title":"From Rabbit-Ears to Neural Nets","subtitle":"I watched WHT’s first test pattern..."},{"title":"Witness to Every Tech Revolution","subtitle":"TV → PC → Internet → Cloud → AI… and I’ve built at every turn."},{"title":"My 70-Year Ride Through Tech","subtitle":"Prop-planes in fog..."}];</script>
   <script src="/assets/js/scripts.js"></script>
 </body>
