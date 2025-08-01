@@ -1,6 +1,6 @@
-/* ==========================================================================
+/* -----------------------------------------------------------------------------
    RESET & BASE
-   ========================================================================== */
+   ----------------------------------------------------------------------------- */
 *,
 *::before,
 *::after {
@@ -8,266 +8,223 @@
   margin: 0;
   padding: 0;
 }
-
-html {
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
+html, body {
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  color: #222;
 }
-
-body {
-  background: #fff;
-  color: #333;
-}
-
-/* ==========================================================================
-   LINKS & BUTTONS
-   ========================================================================== */
 a {
   color: #007acc;
   text-decoration: none;
 }
-
-a:hover,
-a:focus {
+a:hover {
   text-decoration: underline;
 }
 
-.btn {
-  display: inline-block;
-  background: #005fa3;
-  color: #fff;
-  padding: 0.75rem 1.25rem;
-  border-radius: 4px;
-  font-weight: 600;
-  text-decoration: none;
+/* -----------------------------------------------------------------------------
+   SITE WRAPPER
+   ----------------------------------------------------------------------------- */
+body {
+  display: flex;
+  flex-direction: column;
 }
-.btn:hover,
-.btn:focus {
-  background: #004580;
+main.site-content {
+  flex: 1;       /* push footer to bottom */
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
-/* ==========================================================================
-   SITE HEADER & NAV
-   ========================================================================== */
-.site-header {
+/* -----------------------------------------------------------------------------
+   HEADER & NAV
+   ----------------------------------------------------------------------------- */
+header.site-header {
   display: flex;
   align-items: center;
-  justify-content: start;
-  padding: 1rem;
-  border-bottom: 1px solid #eee;
-  position: relative;
-  z-index: 20;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  background: #fafafa;
+  border-bottom: 1px solid #ddd;
 }
-
+.logo {
+  flex: 0 0 auto;
+  margin-right: 2rem;
+  font-weight: bold;
+}
 .logo a {
   font-size: 1.25rem;
-  font-weight: bold;
-  margin-right: 2rem;
-  color: #000;
+  color: #111;
 }
-
-.site-nav {
-  flex: 1;
-}
-
-.site-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1.5rem;
-}
-
-.site-nav li {
-  position: relative;
-}
-
-.site-nav a {
-  padding: 0.5rem;
-  display: block;
-}
-
-.site-nav li.active > a {
-  border-bottom: 2px solid #007acc;
-}
-
-/* Sub-menu */
-.has-sub[aria-expanded="false"] .sub-menu {
-  display: none;
-}
-.has-sub[aria-expanded="true"] .sub-menu {
-  display: block;
-}
-
-.sub-menu {
-  position: absolute;
-  top: calc(100% + 0.25rem);
-  left: 0;
-  background: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  list-style: none;
-  min-width: 160px;
-  z-index: 30;
-}
-
-.sub-menu li a {
-  padding: 0.5rem 1rem;
-  white-space: nowrap;
-}
-.sub-menu li + li {
-  border-top: 1px solid #eee;
-}
-.sub-menu li.active > a {
-  font-weight: bold;
-}
-
-/* Mobile nav toggle */
 .nav-toggle {
   display: none;
+  margin-left: auto;
   background: none;
   border: none;
   font-size: 1.5rem;
-  margin-left: 1rem;
+  cursor: pointer;
+}
+.site-nav {
+  flex: 1 1 auto;
+}
+.site-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.site-nav li {
+  position: relative;
+}
+.site-nav li.active > a {
+  border-bottom: 2px solid #007acc;
+}
+.site-nav a {
+  display: block;
+  padding: 0.5rem 0;
+  color: #111;
+}
+.site-nav a:hover {
+  color: #007acc;
 }
 
-.nav-backdrop {
+/* -----------------------------------------------------------------------------
+   SUB-MENU (DROPDOWNS)
+   ----------------------------------------------------------------------------- */
+.site-nav .has-sub[aria-expanded="true"] > .sub-menu {
+  display: block;
+}
+.sub-menu {
   display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.4);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   z-index: 10;
 }
+.sub-menu li {
+  width: 180px;
+}
+.sub-menu a {
+  padding: 0.5rem 1rem;
+  color: #111;
+}
+.sub-menu a:hover {
+  background: #f0f0f0;
+}
 
-/* ==========================================================================
-   HOMEPAGE LAYOUT
-   ========================================================================== */
+/* -----------------------------------------------------------------------------
+   HERO
+   ----------------------------------------------------------------------------- */
 .hero {
-  width: 100%;
-  background-color: #007acc;
+  background: #007acc;
   color: #fff;
   text-align: center;
   padding: 4rem 1rem;
 }
-
-.site-content {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-
-.recent-posts h2 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.recent-posts ul {
-  list-style: none;
-  padding: 0;
-}
-
-.recent-posts li {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
-}
-
-.recent-posts li::before {
-  content: "●";
-  color: #007acc;
-  margin-right: 0.75rem;
-  line-height: 1.2;
-}
-
-.recent-posts a {
-  font-weight: bold;
-  margin-right: 0.5rem;
-}
-
-.recent-posts .excerpt {
-  color: #555;
-  flex: 1;
-}
-
-/* ==========================================================================
-   PAGE LAYOUT (FOR FUTURE _layouts/page.html)
-   ========================================================================== */
-/*
-.page-container {
-  display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 2rem;
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-}
-.sidebar {
-  position: sticky;
-  top: 2rem;
-}
-.sidebar-nav {
-  list-style: none;
-  padding: 0;
-}
-.sidebar-nav li + li {
-  margin-top: 0.5rem;
-}
-.sidebar-nav li.active > a {
-  font-weight: bold;
-  text-decoration: underline;
-}
-.content h1 {
-  margin-top: 0;
+.hero-title {
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
-*/
+.hero-subtitle {
+  margin-bottom: 2rem;
+}
+.hero .btn {
+  display: inline-block;
+  background: #fff;
+  color: #007acc;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.hero .btn:hover {
+  background: #f0f0f0;
+}
 
-/* ==========================================================================
-   SITE FOOTER
-   ========================================================================== */
-.site-footer {
+/* -----------------------------------------------------------------------------
+   RECENT POSTS
+   ----------------------------------------------------------------------------- */
+.recent-posts {
+  margin-top: 3rem;
+}
+.recent-posts h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
   text-align: center;
-  padding: 2rem 1rem;
-  border-top: 1px solid #eee;
-  font-size: 0.875rem;
+}
+.recent-posts ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+}
+.recent-posts li {
+  margin-bottom: 1.5rem;
+}
+.recent-posts a {
+  font-weight: bold;
+}
+.recent-posts .excerpt {
+  display: block;
+  color: #555;
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+}
+
+/* -----------------------------------------------------------------------------
+   FOOTER
+   ----------------------------------------------------------------------------- */
+footer.site-footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
   color: #666;
 }
 
-/* ==========================================================================
-   RESPONSIVE
-   ========================================================================== */
+/* -----------------------------------------------------------------------------
+   RESPONSIVE (MOBILE MENU)
+   ----------------------------------------------------------------------------- */
 @media (max-width: 768px) {
-  .site-nav ul {
-    display: none;
-    flex-direction: column;
-    background: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 1rem;
-    border-bottom: 1px solid #eee;
-    z-index: 20;
-  }
-  .site-nav.open ul {
-    display: flex;
+  header.site-header {
+    flex-wrap: wrap;
   }
   .nav-toggle {
     display: block;
   }
-  .nav-backdrop.open {
+  .site-nav {
+    display: none;
+    width: 100%;
+    background: #fafafa;
+    margin-top: 1rem;
+  }
+  .site-nav.open {
     display: block;
   }
-
-  /* Collapse page-grid when we enable it */
-  /*
-  .page-container {
-    display: block;
+  .site-nav ul {
+    flex-direction: column;
+    gap: 0;
+  }
+  .site-nav li {
+    border-top: 1px solid #ddd;
+  }
+  .site-nav li:first-child {
+    border-top: none;
+  }
+  .site-nav li a {
     padding: 1rem;
   }
-  .sidebar {
-    position: relative;
-    top: auto;
-    margin-bottom: 1.5rem;
+  .nav-backdrop {
+    display: none;
   }
-  */
+  .nav-backdrop.open {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+    z-index: 5;
+  }
 }
 
