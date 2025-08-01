@@ -1,7 +1,12 @@
 ---
 layout: home
 title: Home
+permalink: /
 ---
+
+<!-- This page’s body goes into the `{{ content }}` slot of `_layouts/home.html`. -->
+
+<!-- You don’t need to re-declare the hero here; it lives in the layout. -->
 
 <section class="recent-posts">
   <h2>Recent Posts</h2>
