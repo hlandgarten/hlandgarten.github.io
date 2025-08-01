@@ -19,6 +19,9 @@ collections:
     output: true
     permalink: /:name/
 
+exclude:
+  - _pages/about.md
+
 defaults:
   # …your existing defaults…
 include:
