@@ -112,6 +112,7 @@ a { text-decoration: none; color: inherit; }
 
 /* Hero & button styling */
 .hero {
+  width: 100%;
   background: #007acc;
   color: #fff;
   text-align: center;
@@ -179,4 +180,13 @@ a { text-decoration: none; color: inherit; }
 .site-nav li.active > .sub-menu {
   display: block !important;
 }
+.site-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}

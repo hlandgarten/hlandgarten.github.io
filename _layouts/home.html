@@ -8,35 +8,65 @@
 </head>
 <body>
 
+  <!-- HEADER / NAVIGATION -->
   <header class="site-header">
     <div class="logo">
       <a href="{{ '/' | relative_url }}">YourLogo</a>
     </div>
-    <!-- Mobile toggle -->
     <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-<!-- Navigation -->
-<nav class="site-nav" role="navigation" aria-label="Main menu">
-  <ul>
-    <!-- Home link -->
-    <li class="{% if page.url == '/' %}active{% endif %}">
-      <a href="{{ '/' | relative_url }}">Home</a>
-    </li>
+    <nav class="site-nav" role="navigation" aria-label="Main menu">
+      <ul>
+        <!-- Home link -->
+        <li class="{% if page.url == '/' %}active{% endif %}">
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
 
-    {% assign items = site.data.navigation %}
-    {% for item in items %}
-    <li
-      class="has-sub {% if page.url == item.url or page.url contains item.url %}active{% endif %}"
-      {% if item.submenu %}aria-haspopup="true" aria-expanded="false"{% endif %}>
-      <a href="{{ item.url }}">{{ item.title }}</a>
+        {% assign items = site.data.navigation %}
+        {% for item in items %}
+        <li
+          class="has-sub {% if page.url == item.url or page.url contains item.url %}active{% endif %}"
+          {% if item.submenu %}aria-haspopup="true" aria-expanded="false"{% endif %}>
+          <a href="{{ item.url }}">{{ item.title }}</a>
 
-      {% if item.submenu %}
-      <ul class="sub-menu">
-        {% for sub in item.submenu %}
-        <li class="{% if page.url == sub.url %}active{% endif %}">
-          <a href="{{ sub.url }}">{{ sub.title }}</a>
+          {% if item.submenu %}
+          <ul class="sub-menu">
+            {% for sub in item.submenu %}
+            <li class="{% if page.url == sub.url %}active{% endif %}">
+              <a href="{{ sub.url }}">{{ sub.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
+    </nav>
+    <div class="nav-backdrop"></div>
+  </header>
+
+  <!-- FULL-WIDTH HERO -->
+  <section class="hero">
+    <h1 class="hero-title"></h1>
+    <p class="hero-subtitle"></p>
+    <a href="#timeline" class="btn">Explore My Journey</a>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main class="site-content">
+    {{ content }}
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    &copy; {{ site.time | date: "%Y" }} Harris Landgarten. All rights reserved.
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+</body>
+</html>
+
       {% endif %}
     </li>
     {% endfor %}
