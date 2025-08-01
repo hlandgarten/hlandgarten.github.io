@@ -8,12 +8,11 @@
 </head>
 <body>
 
-  <!-- HEADER / NAV -->
+  <!-- HEADER + NAV -->
   <header class="site-header">
     <div class="logo">
       <a href="{{ '/' | relative_url }}">YourLogo</a>
     </div>
-
     <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     <nav class="site-nav" role="navigation" aria-label="Main menu">
       <ul>
@@ -47,20 +46,9 @@
     <a href="#timeline" class="btn">Explore My Journey</a>
   </section>
 
-  <!-- MAIN CONTENT -->
+  <!-- SINGLE-COLUMN CONTENT -->
   <main class="site-content">
-    <!-- Recent Posts -->
-    <section class="recent-posts">
-      <h2>Recent Posts</h2>
-      <ul>
-        {% for post in site.posts limit:5 %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-    </section>
+    {{ content }}
   </main>
 
   <!-- FOOTER -->
