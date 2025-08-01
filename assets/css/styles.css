@@ -169,4 +169,14 @@ a { text-decoration: none; color: inherit; }
   font-size: 0.875rem;
   line-height: 1.4;
 }
+/* Active nav link underline & bold */
+.site-nav li.active > a {
+  font-weight: bold;
+  border-bottom: 2px solid #007acc;
+}
+
+/* Also keep parent open if active submenu */
+.site-nav li.active > .sub-menu {
+  display: block !important;
+}
 
