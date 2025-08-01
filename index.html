@@ -8,12 +8,11 @@
 </head>
 <body>
 
-  <!-- HEADER / NAV -->
+  <!-- HEADER + NAV -->
   <header class="site-header">
     <div class="logo">
       <a href="/">YourLogo</a>
     </div>
-
     <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     <nav class="site-nav" role="navigation" aria-label="Main menu">
       <ul>
@@ -133,27 +132,41 @@
     <a href="#timeline" class="btn">Explore My Journey</a>
   </section>
 
-  <!-- MAIN CONTENT -->
+  <!-- SINGLE-COLUMN CONTENT -->
   <main class="site-content">
-    <!-- Recent Posts -->
-    <section class="recent-posts">
-      <h2>Recent Posts</h2>
-      <ul>
-        
-        <li>
-          <a href="/2025/07/22/welcome.html">Welcome Post</a>
-          <span class="excerpt">This is the first post of the blog on my personal site. Stay tuned!
+    <!-- This page’s body goes into the `<h1 id="blog">Blog</h1>
+
+<ul>
+  
+    <li><a href="/2025/07/22/welcome.html">Welcome Post</a> - Jul 22, 2025</li>
+  
+    <li><a href="/updates/2025/07/22/first-post.html">A New Beginning</a> - Jul 22, 2025</li>
+  
+</ul>
+` slot of `_layouts/home.html`. -->
+
+<!-- You don’t need to re-declare the hero here; it lives in the layout. -->
+
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <ul>
+    
+    <li>
+      <a href="/2025/07/22/welcome.html">Welcome Post</a>
+      <span class="excerpt">This is the first post of the blog on my personal site. Stay tuned!
 </span>
-        </li>
-        
-        <li>
-          <a href="/updates/2025/07/22/first-post.html">A New Beginning</a>
-          <span class="excerpt">This site marks a new chapter in sharing my ideas and technologies. Much more to come soon.
+    </li>
+    
+    <li>
+      <a href="/updates/2025/07/22/first-post.html">A New Beginning</a>
+      <span class="excerpt">This site marks a new chapter in sharing my ideas and technologies. Much more to come soon.
 </span>
-        </li>
-        
-      </ul>
-    </section>
+    </li>
+    
+  </ul>
+</section>
+
+
   </main>
 
   <!-- FOOTER -->
