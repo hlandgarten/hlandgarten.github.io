@@ -13,6 +13,7 @@
     <div class="logo">
       <a href="{{ '/' | relative_url }}">YourLogo</a>
     </div>
+
     <button class="nav-toggle" aria-label="Toggle menu">☰</button>
     <nav class="site-nav" role="navigation" aria-label="Main menu">
       <ul>
@@ -24,7 +25,7 @@
         {% assign items = site.data.navigation %}
         {% for item in items %}
         <li
-          class="has-sub {% if page.url == item.url or page.url contains item.url %}active{% endif %}"
+          class="has-sub{% if page.url == item.url or page.url contains item.url %} active{% endif %}"
           {% if item.submenu %}aria-haspopup="true" aria-expanded="false"{% endif %}>
           <a href="{{ item.url }}">{{ item.title }}</a>
 
@@ -41,6 +42,7 @@
         {% endfor %}
       </ul>
     </nav>
+
     <div class="nav-backdrop"></div>
   </header>
 
@@ -63,37 +65,6 @@
 
   <!-- SCRIPTS -->
   <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-</body>
-</html>
-
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</nav>
-<div class="nav-backdrop"></div>
-   
-  <!-- Expose taglines to JS -->
-  <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
-
-  <main class="site-content">
-    <!-- HERO SECTION -->
-    <section class="hero">
-      <h1 class="hero-title"></h1>
-      <p class="hero-subtitle"></p>
-      <a href="#timeline" class="btn">Explore My Journey</a>
-    </section>
-
-    <!-- PAGE CONTENT -->
-    {{ content }}
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer" style="text-align:center; padding:1rem 0;">
-    &copy; {{ site.time | date: "%Y" }} Harris Landgarten. All rights reserved.
-  </footer>
-
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
