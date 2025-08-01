@@ -130,6 +130,11 @@ a { text-decoration: none; color: inherit; }
 .btn:hover {
   background: #e0e0e0;
 }
+.site-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 /* Recent Posts */
 .recent-posts {
   padding: 1.5rem;
@@ -179,11 +184,6 @@ a { text-decoration: none; color: inherit; }
 /* Also keep parent open if active submenu */
 .site-nav li.active > .sub-menu {
   display: block !important;
-}
-.site-content {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
 }
 
 .site-footer {
