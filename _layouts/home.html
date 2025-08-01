@@ -2,67 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- Mobile-first viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
+
   <header class="site-header">
     <div class="logo">
       <a href="{{ '/' | relative_url }}">YourLogo</a>
     </div>
-    <button class="nav-toggle" aria-label="Open navigation">☰</button>
-    <div class="nav-backdrop"></div>
-
+    <!-- Mobile toggle -->
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <!-- Navigation -->
     <nav class="site-nav">
-      <button class="nav-close" aria-label="Close navigation">✕</button>
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {% assign items = site.data.navigation %}
+        {% for item in items %}
         <li class="has-sub">
-          <a href="{{ '/bio/' | relative_url }}">Bio</a>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+          {% if item.submenu %}
           <ul class="sub-menu">
-            <li><a href="{{ '/bio/#overview' | relative_url }}">Overview</a></li>
-            <li><a href="{{ '/bio/#influences' | relative_url }}">Key Influences</a></li>
-            <li><a href="{{ '/bio/#values' | relative_url }}">Values</a></li>
+            {% for sub in item.submenu %}
+            <li><a href="{{ sub.url }}">{{ sub.title }}</a></li>
+            {% endfor %}
           </ul>
+          {% endif %}
         </li>
-        <li class="has-sub">
-          <a href="{{ '/volumes/' | relative_url }}">Volumes</a>
-          <ul class="sub-menu">
-            <li><a href="{{ '/volumes/volume1/' | relative_url }}">Volume 1</a></li>
-            <li><a href="{{ '/volumes/volume2/' | relative_url }}">Volume 2</a></li>
-            <li><a href="{{ '/volumes/volume3/' | relative_url }}">Volume 3</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/timeline/' | relative_url }}">Timeline</a></li>
-        <li class="has-sub">
-          <a href="{{ '/work/' | relative_url }}">Work</a>
-          <ul class="sub-menu">
-            <li><a href="{{ '/work/projects/' | relative_url }}">Projects</a></li>
-            <li><a href="{{ '/work/case-studies/' | relative_url }}">Case Studies</a></li>
-            <li><a href="{{ '/work/tools/' | relative_url }}">Tools</a></li>
-          </ul>
-        </li>
-        <li class="has-sub">
-          <a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-          <ul class="sub-menu">
-            <li><a href="{{ '/blog/' | relative_url }}">All Posts</a></li>
-            <li><a href="{{ '/blog/categories/' | relative_url }}">Categories</a></li>
-            <li><a href="{{ '/blog/tags/' | relative_url }}">Tags</a></li>
-          </ul>
-        </li>
-        <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        {% endfor %}
       </ul>
     </nav>
+    <div class="nav-backdrop"></div>
   </header>
 
+  <!-- Expose taglines to JS -->
+  <script>window.taglines = {{ site.data.taglines | jsonify }};</script>
+
   <main class="site-content">
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <h1 class="hero-title"></h1>
+      <p class="hero-subtitle"></p>
+      <a href="#timeline" class="btn">Explore My Journey</a>
+    </section>
+
+    <!-- PAGE CONTENT -->
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    &copy; {{ site.time | date: "%Y" }} Your Name. All rights reserved.
+  <!-- FOOTER -->
+  <footer class="site-footer" style="text-align:center; padding:1rem 0;">
+    &copy; {{ site.time | date: "%Y" }} Harris Landgarten. All rights reserved.
   </footer>
 
   <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
