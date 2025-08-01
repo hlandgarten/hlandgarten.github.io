@@ -31,20 +31,14 @@ body {
   flex-direction: column;
   min-height: 100vh !important;
 }
-header, main, footer {
-  display: block !important;
-  grid-area: auto !important;
-  grid-template-columns: none !important;
-  grid-template-rows: none !important;
+/* Ensure each major section takes full width */
+header.site-header,
+.hero,
+main.site-content,
+footer.site-footer {
+  width: 100% !important;
+  flex-shrink: 0;
 }
-main.site-content {
-  flex: 1;       /* push footer to bottom */
-  width: 100%;
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
 /* -----------------------------------------------------------------------------
    HEADER & NAV
    ----------------------------------------------------------------------------- */
